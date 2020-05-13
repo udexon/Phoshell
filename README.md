@@ -23,3 +23,34 @@ https://en.wikipedia.org/wiki/Dc_(computer_program)
 Unix claimed the high ground for shell and programming language tools. Forth lost out. Making a comeback.
 
 http://phos.epizy.com/smashlet/?i=1
+
+Phoshell: Overcoming Baby Elephant Syndrome amongst Programmers with a Forth inspired Stack Machine Shell
+
+We do not know what we do not know. When someone tells us something we do not know, half the time we reject it. 
+
+Simplifying React Redux Augmented Reality Programming (Jitsi Meet) using Forth derived Stack Machine Shell
+Functionalities of code become more complex. Can code be made simpler at the same time? 
+
+https://www.thestar.com.my/opinion/columnists/the-star-says/2017/08/13/free-our-young-from-the-baby-elephant-syndrome
+
+
+
+The Baby Elephant Syndrome amongst Programmers
+https://see.news/the-chained-elephants-syndrome/
+
+
+
+
+https://medical-dictionary.thefreedictionary.com/baby+elephant+syndrome
+
+baby elephant syndrome A term of art for hopeless helplessness learned in childhood, which becomes hard-wired in a person’s psyche as he or she develops and matures.
+Segen's Medical Dictionary. © 2012 Farlex, Inc. All rights reserved.
+
+Another misconception: GUI and CLI are unrelated. However GUI is related to graph structure, and therefore Reverse Polish Notation.
+
+- Diversification of Programming Languages
+- Separation of CLI and GUI
+
+Compare Smashlet to Redux, both in footprint and architecture. 
+
+Jitsi Meet is field tested, large scale, 100 mb in zip size ... one of the biggest project of any kind, Redux , besides libreoffice. Merge all apps with Phoshell? With all platform module: web, Android, iOS. Active developments, how many commits per week, consistently? 
