@@ -3,6 +3,8 @@
 
 Shell is supposed to simplify things (what things?), but most programmers thought that shell is a huge mysterious beast like Bash which is beyond the reach of common mortals. Thanks to Unix GNU?
 
+Subconcious conditioning, like the little elephant in the circus. Trained not to escape, tied to a pole. When grown up, also not espcaping.
+
 - Perhaps the biggest mystery in the short history of computer programming?
   - Have `dc` and Forth programmers ever corssed path?
 
