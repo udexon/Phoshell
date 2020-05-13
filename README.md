@@ -31,6 +31,12 @@ https://github.com/udexon/Phoom/blob/master/R3ML_Jitsi_Phoom.md
 
 We illustrate how stack machine shell resolves these issues by using Jitsi-Meet as example.
 
+Phoshell is derived from the Forth programming language, as we took critical features from Forth and simplify them, to create a highly portable stack machine shell that can be implemented in around 50 lines of JavaScript code or equivalent, that essentially does the following:
+- pushes non-function words (tokens) on to the stack;
+- executes function words and pushes the results on to the stack.
+
+Phoshell was initially implemented in PHP as an experiment to see how easy it is to implement a simplified stack machine. Eventually, we realized that this simplified stack machine can in fact be implemented in ___any known programming language___ _with the equivalent of around 50 lines of JavaScript or PHP code_, thus making the Forth like script (hence _"Phos"_) a likely candidate to be a ___universal scripting language___.
+
 Simplifying React Redux Augmented Reality Programming (Jitsi Meet) using Forth derived Stack Machine Shell
 Functionalities of code become more complex. Can code be made simpler at the same time? 
 
@@ -116,6 +122,33 @@ __We believe this is the beginning of a new era of computing:__
 Hence ___Phoom R3ML___.
 
 - Footnote: in figures 1 and 2, the camera is actually pointing at the monitor showing the browser console. _Can the program understand what it is seeing?_ We hope this will be a small step towards _Star Trek_ or _Star Wars_ &mdash; where Reverse Polish Notation opens up _homoiconic metaprogramming_, very likely the last mile towards achieving human level artificial intelligence. _But then that belongs to another article at another time._
+
+
+
+The 3 problems mentioned above are not unique to Jitsi. They are perhaps generic to many other free software / open source projects.
+
+- Why do we need that many developers for AR conferencing?
+
+__We believe this is the beginning of a new era of computing:__
+
+- _If the 2010 decade is defined by iPhone and Android mobile devices, then_ ___2020s should be the era of Virtual Reality &mdash; 3D VR AR___, _with opreating systems and devices that transcend the old, but the programming language has to be_ ___powerful___ _like Forth and yet_ ___easy to learn___ _like the Turtle graphics Logo programming language._
+
+Phoshell is derived from the Forth programming language, as we took critical features from Forth and simplify them, to create a highly portable stack machine shell that can be implemented in around 50 lines of JavaScript code or equivalent, that essentially does the following:
+- pushes non-function words (tokens) on to the stack;
+- executes function words and pushes the results on to the stack.
+
+Phoshell was initially implemented in PHP as an experiment to see how easy it is to implement a simplified stack machine. Eventually, we realized that this simplified stack machine can in fact be implemented in ___any known programming language___ _with the equivalent of around 50 lines of JavaScript or PHP code_, thus making the Forth like script (hence _"Phos"_) a likely candidate to be a ___universal scripting language___.
+
+Besides Forth implementations in other programming languages (from C/C++ to Lisp, JavaScript, Java, Rust, Haskell etc.) developed by other programmers, which we too classify as "stack machine shells" (smashlet), we ourselves have implemented Phoshell in:
+
+- C, C++, PHP, Python, Java, JavaScript &mdash; on desktop Linux and Android (Java and NDK)
+- Using Laravel Blade PHP, we succeeded in creating a Reverse Polish form of HTML!! &mdash; _a breakthrough perhaps as significant as the invention of HTML itself??_
+- An attempt to implement raw Forth within Firefox JavaScript engine as a ___compatible___ alternative to WebAssembly
+
+
+<img src="https://github.com/udexon/Phoom/blob/master/jitsi_phoshell/jm_chat_icon.png" width=600>
+
+<img src="https://github.com/udexon/Phoom/blob/master/jitsi_phoshell/jm_phoshell.png" width=600>
 
 baby elephant syndrome A term of art for hopeless helplessness learned in childhood, which becomes hard-wired in a person’s psyche as he or she develops and matures.
 
