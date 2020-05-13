@@ -7,13 +7,27 @@ Stack machine shell ("smashlet" or "shellet") is such a blind spot amongst progr
 
 This blind spot amongst programmers is so serious that we may use the Baby Elephant Syndrome or Chained Elephant Syndrome to describe it. It concerns two of the biggest controversies in computer programming:
 
-- Diversification of Programming Languages
+- Diversification of Programming Languages and Frameworks
 - Separation of CLI and GUI
 
 To TLDR the long story:
 
 - Is it possible to unify all programming languages with a universal script?
 - Is it possible to create a CLI shell that can program GUI interactively?
+
+What are the problems we are trying to solve?
+
+1. The good old learning curve to pick up a new framework / programming language (JavaScript React Redux).
+
+2. Lack of a powerful live debugging system like Forth for new programmers to debug and learn the internal workings of Jitsi.
+
+3. Both reasons above contribute to lack of documentation and manpower to prepare documentation, which lead to a positive feedback in difficulties in getting more developers.
+
+Hence we hope R3ML will overcome these problems, perhaps enable thousands more developers to join our effort &mdash; ___Phoom: an augmented reality conferencing app___. 
+
+The 3 problems mentioned above are not unique to Jitsi. They are perhaps generic to many other free software / open source projects.
+
+https://github.com/udexon/Phoom/blob/master/R3ML_Jitsi_Phoom.md
 
 We illustrate how stack machine shell resolves these issues by using Jitsi-Meet as example.
 
@@ -65,10 +79,43 @@ The Baby Elephant Syndrome amongst Programmers
 
 https://see.news/the-chained-elephants-syndrome/
 
-
-
-
 https://medical-dictionary.thefreedictionary.com/baby+elephant+syndrome
+
+
+
+## Why R3ML?
+
+As decribed in the following GitHub issue:
+
+- https://github.com/jitsi/jitsi-meet/issues/5269#issuecomment-622661995
+
+- TLDR: The Tensor Flow (TFJS) Body Pix algorithm is already included in Jitsi-Meet.
+
+As such, we may ask:
+
+- Why hasn't anyone use TFJS Body Pix to extract the human body as avatar, to be used in an Augmented Reality conferencing app?
+
+We suspect there are three primary reasons:
+
+1. The good old learning curve to pick up a new framework / programming language (JavaScript React Redux).
+
+2. Lack of a powerful live debugging system like Forth for new programmers to debug and learn the internal workings of Jitsi.
+
+3. Both reasons above contribute to lack of documentation and manpower to prepare documentation, which lead to a positive feedback in difficulties in getting more developers.
+
+Hence we hope R3ML will overcome these problems, perhaps enable thousands more developers to join our effort &mdash; ___Phoom: an augmented reality conferencing app___. 
+
+The 3 problems mentioned above are not unique to Jitsi. They are perhaps generic to many other free software / open source projects.
+
+- Why do we need that many developers for AR conferencing?
+
+__We believe this is the beginning of a new era of computing:__
+
+- _If the 2010 decade is defined by iPhone and Android mobile devices, then_ ___2020s should be the era of Virtual Reality &mdash; 3D VR AR___, _with opreating systems and devices that transcend the old, but the programming language has to be_ ___powerful___ _like Forth and yet_ ___easy to learn___ _like the Turtle graphics Logo programming language._
+
+Hence ___Phoom R3ML___.
+
+- Footnote: in figures 1 and 2, the camera is actually pointing at the monitor showing the browser console. _Can the program understand what it is seeing?_ We hope this will be a small step towards _Star Trek_ or _Star Wars_ &mdash; where Reverse Polish Notation opens up _homoiconic metaprogramming_, very likely the last mile towards achieving human level artificial intelligence. _But then that belongs to another article at another time._
 
 baby elephant syndrome A term of art for hopeless helplessness learned in childhood, which becomes hard-wired in a person’s psyche as he or she develops and matures.
 
