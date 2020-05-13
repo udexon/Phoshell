@@ -1,6 +1,8 @@
 # Phoshell
 - Phoshell: a Forth inspired, extremely lightweight, stack machine shell, implementable in _ALL_ known programming languages.
 
+We do not know what we do not know. When someone tells us something we do not know, half the time we reject it.
+
 Shell is supposed to simplify things (what things?), but most programmers thought that shell is a huge mysterious beast like Bash which is beyond the reach of common mortals. Thanks to Unix GNU?
 
 Subconcious conditioning, like the little elephant in the circus. Trained not to escape, tied to a pole. When grown up, also not espcaping.
@@ -26,7 +28,7 @@ http://phos.epizy.com/smashlet/?i=1
 
 Phoshell: Overcoming Baby Elephant Syndrome amongst Programmers with a Forth inspired Stack Machine Shell
 
-We do not know what we do not know. When someone tells us something we do not know, half the time we reject it. 
+ 
 
 Simplifying React Redux Augmented Reality Programming (Jitsi Meet) using Forth derived Stack Machine Shell
 Functionalities of code become more complex. Can code be made simpler at the same time? 
