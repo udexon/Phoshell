@@ -3,6 +3,10 @@
 
 We do not know what we do not know. When someone tells us something we do not know, half the time we reject it.
 
+Stack machine shell ("smashlet" or "shellet") is such a blind spot amongst programmers. Each and every word in the phrase "stack machine shell" is such fundamental concept that no one will think twice about it. But when chained together, the top Google search result is actually a Reddit post linked to another old repository by this GitHub user (udexon) &mdahs; which means we have suceeded in defining this term.
+
+This blind spot amongst programmers is so serious that we may use the Baby Elephant Syndrome or Chained Elephant Syndrome to describe it.
+
 Shell is supposed to simplify things (what things?), but most programmers thought that shell is a huge mysterious beast like Bash which is beyond the reach of common mortals. Thanks to Unix GNU?
 
 Subconcious conditioning, like the little elephant in the circus. Trained not to escape, tied to a pole. When grown up, also not espcaping.
@@ -38,6 +42,7 @@ https://www.thestar.com.my/opinion/columnists/the-star-says/2017/08/13/free-our-
 
 
 The Baby Elephant Syndrome amongst Programmers
+
 https://see.news/the-chained-elephants-syndrome/
 
 
@@ -46,6 +51,7 @@ https://see.news/the-chained-elephants-syndrome/
 https://medical-dictionary.thefreedictionary.com/baby+elephant+syndrome
 
 baby elephant syndrome A term of art for hopeless helplessness learned in childhood, which becomes hard-wired in a person’s psyche as he or she develops and matures.
+
 Segen's Medical Dictionary. © 2012 Farlex, Inc. All rights reserved.
 
 Another misconception: GUI and CLI are unrelated. However GUI is related to graph structure, and therefore Reverse Polish Notation.
