@@ -15,6 +15,11 @@ To TLDR the long story:
 - Is it possible to unify all programming languages with a universal script?
 - Is it possible to create a CLI shell that can program GUI interactively?
 
+We illustrate how stack machine shell resolves these issues by using Jitsi-Meet as example.
+
+Simplifying React Redux Augmented Reality Programming (Jitsi Meet) using Forth derived Stack Machine Shell
+Functionalities of code become more complex. Can code be made simpler at the same time? 
+
 Another misconception: GUI and CLI are unrelated. However GUI is related to graph structure, and therefore Reverse Polish Notation.
 
 
@@ -51,8 +56,6 @@ Phoshell: Overcoming Baby Elephant Syndrome amongst Programmers with a Forth in
 
  
 
-Simplifying React Redux Augmented Reality Programming (Jitsi Meet) using Forth derived Stack Machine Shell
-Functionalities of code become more complex. Can code be made simpler at the same time? 
 
 https://www.thestar.com.my/opinion/columnists/the-star-says/2017/08/13/free-our-young-from-the-baby-elephant-syndrome
 
