@@ -1,6 +1,8 @@
 # Phoshell
 - Phoshell: a Forth inspired, extremely lightweight stack machine shell, implementable in _ALL_ known programming languages.
 
+- How many people? How long will it take to start contributing to Jitsi-Meet or similar projects?
+
 We do not know what we do not know. When someone tells us something we do not know, half the time we reject it.
 
 Stack machine shell ("smashlet" or "shellet") is such a blind spot amongst programmers. Each and every word in the phrase "stack machine shell" is such fundamental concept that no one will think twice about it. But when chained together, the top Google search result is actually a Reddit post linked to another old repository by this GitHub user (udexon) &mdash; which means we have suceeded in defining this term.
