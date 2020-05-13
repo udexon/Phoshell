@@ -6,7 +6,7 @@
 
 https://en.wikipedia.org/wiki/Reverse_Polish_notation
 
-Other RP camps? Algol Unilever 
+Other RP camps? Algol Unilever Burroughs?
 
 HP calculators?
 
@@ -17,3 +17,5 @@ First Unix shell is reverse polish.
 https://en.wikipedia.org/wiki/Dc_(computer_program)
 
 Unix claimed the high ground for shell and programming language tools. Forth lost out. Making a comeback.
+
+http://phos.epizy.com/smashlet/?i=1
