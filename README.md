@@ -3,9 +3,26 @@
 
 We do not know what we do not know. When someone tells us something we do not know, half the time we reject it.
 
-Stack machine shell ("smashlet" or "shellet") is such a blind spot amongst programmers. Each and every word in the phrase "stack machine shell" is such fundamental concept that no one will think twice about it. But when chained together, the top Google search result is actually a Reddit post linked to another old repository by this GitHub user (udexon) &mdahs; which means we have suceeded in defining this term.
+Stack machine shell ("smashlet" or "shellet") is such a blind spot amongst programmers. Each and every word in the phrase "stack machine shell" is such fundamental concept that no one will think twice about it. But when chained together, the top Google search result is actually a Reddit post linked to another old repository by this GitHub user (udexon) &mdash; which means we have suceeded in defining this term.
 
-This blind spot amongst programmers is so serious that we may use the Baby Elephant Syndrome or Chained Elephant Syndrome to describe it.
+This blind spot amongst programmers is so serious that we may use the Baby Elephant Syndrome or Chained Elephant Syndrome to describe it. It concerns two of the biggest controversies in computer programming:
+
+- Diversification of Programming Languages
+- Separation of CLI and GUI
+
+To TLDR the long story:
+
+- Is it possible to unify all programming languages with a universal script?
+- Is it possible to create a CLI shell that can program GUI interactively?
+
+Another misconception: GUI and CLI are unrelated. However GUI is related to graph structure, and therefore Reverse Polish Notation.
+
+
+Compare Smashlet to Redux, both in footprint and architecture. 
+
+Jitsi Meet is field tested, large scale, 100 mb in zip size ... one of the biggest project of any kind, Redux , besides libreoffice. Merge all apps with Phoshell? With all platform module: web, Android, iOS. Active developments, how many commits per week, consistently? 
+
+
 
 Shell is supposed to simplify things (what things?), but most programmers thought that shell is a huge mysterious beast like Bash which is beyond the reach of common mortals. Thanks to Unix GNU?
 
@@ -54,11 +71,3 @@ baby elephant syndrome A term of art for hopeless helplessness learned in childh
 
 Segen's Medical Dictionary. © 2012 Farlex, Inc. All rights reserved.
 
-Another misconception: GUI and CLI are unrelated. However GUI is related to graph structure, and therefore Reverse Polish Notation.
-
-- Diversification of Programming Languages
-- Separation of CLI and GUI
-
-Compare Smashlet to Redux, both in footprint and architecture. 
-
-Jitsi Meet is field tested, large scale, 100 mb in zip size ... one of the biggest project of any kind, Redux , besides libreoffice. Merge all apps with Phoshell? With all platform module: web, Android, iOS. Active developments, how many commits per week, consistently? 
