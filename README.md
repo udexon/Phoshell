@@ -1,5 +1,5 @@
 # Phoshell
-- Phoshell: a Forth inspired, extremely lightweight, stack machine shell, implementable in _ALL_ known programming languages.
+- Phoshell: a Forth inspired, extremely lightweight stack machine shell, implementable in _ALL_ known programming languages.
 
 We do not know what we do not know. When someone tells us something we do not know, half the time we reject it.
 
