@@ -1,5 +1,12 @@
 # Phoshell
-- Phoshell: a Forth inspired, extremely lightweight stack machine shell, implementable in _ALL_ known programming languages.
+- Phoshell: A Universal, Extremely Lightweight "Embedded IDE" with Run-time Editing and Debugging Functionalities
+
+  - Phoshell: a Forth inspired, extremely lightweight stack machine shell, implementable in _ALL_ known programming languages.
+
+
+Deployed in anything from Python Turtle Graphics, Laravel front-end and back-end to Jitsi Meet Augmented Reality Conferencing, Phoshell is the ultimate programmer's _swiss army knife_.
+
+Inspired by the Forth programming language, Phoshell &mdash; a _stack machine shell_ &mdash; extracts the essential features of Forth, simplifies them, and can be implemented in around 50 lines of JavaScript code or equivalent in _any known programming language_.
 
 - How many people? How long will it take to start contributing to Jitsi-Meet or similar projects?
 
@@ -156,3 +163,77 @@ baby elephant syndrome A term of art for hopeless helplessness learned in childh
 
 Segen's Medical Dictionary. © 2012 Farlex, Inc. All rights reserved.
 
+<hr>
+
+Phoshell:  Extremely Lightweight "Super IDE" with Run-time Editing and Debugging
+
+Phoshell: A Universal, Extremely Lightweight "Embedded IDE" with Run-time Editing and Debugging Functionalities
+
+
+Jitsi Phoshell:  Extremely Lightweight "Super IDE" From Python Turtle Graphics to Jitsi Meet Augmented Reality Conferencing
+
+
+Shell + GUI = IDE
+
+Phoshell: Overcoming Baby Elephant Syndrome amongst Programmers with a Forth inspired Stack Machine Shell
+
+Phoshell Universal Packaging System -- Phups: the Last Mile in Computer Programming
+
+Phos Package Manager PhosPM. Easier to remember like NPM. 
+
+How long does it take for you to start modifying an app whose source code is available on GitHub or equivalent open source websites?
+
+Need to compile, test run, find documentation and location and code to start modifying.
+
+What if we can do it as and when app is run?
+
+Why, who need this?
+
+Need to write in such a way that readers who know nothing about Phoshell can understand. 
+
+Nearest experience is Python shell? 
+
+Use Python turtle graphics with and without Phoshell as example, to illustrate interactive input output with graphics. 
+
+
+New title: the Last Mile in Computer Programming
+
+Use this, can be understood by all:
+- What if modifying any app can be done interactively via a textbook or equivalent element in the app itself?
+
+Compare to nodejs ecosystem, third party contributing to building libraries.
+
+Phoshell does not compete with existing Programming Languages and packaging frameworks, but compliments them in the "last mile" (explain telephone line analogy). 
+
+Highlight what nodejs npm have not achieved, what Phos UPS can do:
+- variable level of encapsulation, find examples not possible using JavaScript?  - What practical consequences does this have?
+
+Explain RPML on its own. Generalize from Laravel Blade PHP to other Programming Languages. 
+
+
+We do not know what we do not know. When someone tells us something we do not know, half the time we reject it. 
+
+Simplifying React Redux Augmented Reality Programming (Jitsi Meet) using Forth derived Stack Machine Shell
+Functionalities of code become more complex. Can code be made simpler at the same time? 
+https://www.thestar.com.my/opinion/columnists/the-star-says/2017/08/13/free-our-young-from-the-baby-elephant-syndrome
+
+
+
+The Baby Elephant Syndrome amongst Programmers
+https://see.news/the-chained-elephants-syndrome/
+
+
+
+
+https://medical-dictionary.thefreedictionary.com/baby+elephant+syndrome
+
+baby elephant syndrome A term of art for hopeless helplessness learned in childhood, which becomes hard-wired in a person’s psyche as he or she develops and matures.
+Segen's Medical Dictionary. © 2012 Farlex, Inc. All rights reserved.
+
+Another misconception: GUI and CLI are unrelated. However GUI is related to graph structure, and therefore Reverse Polish Notation.
+
+- Diversification of Programming Languages
+- Separation of CLI and GUI
+Compare Smashlet to Redux, both in footprint and architecture. 
+
+Jitsi Meet is field tested, large scale, 100 mb in zip size ... one of the biggest project of any kind, Redux , besides libreoffice. Merge all apps with Phoshell? With all platform module: web, Android, iOS. Active developments, how many commits per week, consistently?
