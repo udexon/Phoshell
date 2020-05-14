@@ -8,6 +8,8 @@ Deployed in anything from Python Turtle Graphics, Laravel front-end and back-end
 
 Inspired by the Forth programming language, Phoshell &mdash; a _stack machine shell_ &mdash; extracts the essential features of Forth, simplifies them, and can be implemented in around 50 lines of JavaScript code or equivalent in _any known programming language_.
 
+One of the biggest obstacles in working on a large scale open source repository such as Jitsi Meet is the lack of documentations for a new comer to familiarize with the respective modules and begin modifying the code.
+
 - How many people? How long will it take to start contributing to Jitsi-Meet or similar projects?
 
 We do not know what we do not know. When someone tells us something we do not know, half the time we reject it.
