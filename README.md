@@ -10,6 +10,12 @@ Inspired by the Forth programming language, Phoshell &mdash; a _stack machine sh
 
 One of the biggest obstacles in working on a large scale open source repository such as Jitsi Meet is the lack of documentations for a new comer to familiarize with the respective modules and begin modifying the code.
 
+Consider the following plan:
+
+- Phoom link. We wish to create an Augmented Reality Conferencing App, based on Jitsi Meet Video Conferencing App.
+  - We have successfully copied TFJS Mask function into JitsiMeetBlurEffect.js
+  - We have used ChatMessage.js as entry point to Phoshell. 
+
 - How many people? How long will it take to start contributing to Jitsi-Meet or similar projects?
 
 We do not know what we do not know. When someone tells us something we do not know, half the time we reject it.
