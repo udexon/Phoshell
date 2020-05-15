@@ -18,16 +18,28 @@ Consider the following plan:
 
 - How many people? How long will it take to start contributing to Jitsi-Meet or similar projects?
 
-Phoshell is source compatible with the host Programming Language and framework. Give examples and explain. 
-Examples show:- Python turtle graphics- ChatMessage addition- TFJS
+Phoshell is source compatible with the host Programming Language and framework. 
+
+Give examples and explain. 
+Examples show:
+- Python turtle graphics
+- ChatMessage addition
+- TFJS
+
 What are the hierarchy and relationships of the above and how does Phoshell relates them?
+
 A stack machine shell maps function tokens in the input, expressed in reverse Polish notation, to native functions of the host programming language. RPN is used to call functions in all the scenarios listed above. As such, ....
+
 Familiarizing with a new framework and the structure of a new project have become one of the most time consuming tasks when a programmer takes up a new project. The amount of time spent is especially significant for programmers wishing to get involved in a new open source project. This can make or break the decision for someone to join an open source project, as the time for familiarization could be a significant ratio to the total amount of time a programmer is able to engage in an open source project, usually on a part time basis, typically starting from single digit hours per week. 
+
 Explain with examples of issues in TFJS and ChatMessage etc. Time spent.
+
 Assume exponential decay for number of interested programmers vs. time spent, then hopefully we may improve recruitments in open source projects exponentially by cutting down time needed to familiarize and see results. 
+
 By encapsulating framework and programming language specific details with RPN, programmers who are  unfamiliar with them may jump start and see results immediately.
 
 The uniqueness of RPN is proven in its ability to encapsulate anything from Python turtle graphics to Jitsi Meet TFJS. The mechanisms behind this are some of the most fundamental principles in programming and mathematics. 
+
 ====
 
 
