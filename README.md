@@ -16,19 +16,10 @@ Consider the following plan:
   - We have successfully copied TFJS Mask function into JitsiMeetBlurEffect.js
   - We have used ChatMessage.js as entry point to Phoshell. 
 
-
+:: describe A to Z of plan
 
 :: mark notes with :: continuously refine notes between finished paragraphs.
-
 :: number notes, easier to organize. remove numbers when finished.
-
-1. Phoshell is source compatible with the host Programming Language and framework. 
-
-Give examples and explain. 
-Examples show:
-- Python turtle graphics
-- ChatMessage addition
-- TFJS
 
 2. What are the hierarchy and relationships of the above and how does Phoshell relates them?
 
@@ -60,10 +51,18 @@ Sample code: place avatar at 30 deg around table ...
 10. Use ChatMessage text input to create new UI elements, debugging facilities, build Embedded IDE etc.
 
 
+11. Phoshell is source compatible with the host Programming Language and framework. 
+
+Give examples and explain. 
+Examples show:
+- Python turtle graphics
+- ChatMessage addition
+- TFJS
+
 
 :: convert - bulleted headings to # headings when finished
 
-- Phoshell projects as large scale software engineering projects
+12. Phoshell projects as large scale software engineering projects
   - How many people? How long will it take to start contributing to Jitsi-Meet or similar projects?
 
 Consider N the number of programmers who have one hour free time every day. They could have write something to create AR Conferencing app. But due to time required to learn entry level knowledge (TELK), this number is greatly reduced. If we reduce TELK, then N increases.
