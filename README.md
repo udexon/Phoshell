@@ -4,7 +4,7 @@
   - Phoshell: a Forth inspired, extremely lightweight stack machine shell, implementable in _ALL_ known programming languages.
 
 
-Deployed in anything from Python Turtle Graphics, Laravel front-end and back-end to Jitsi Meet Augmented Reality Conferencing, Phoshell is the ultimate programmer's _swiss army knife_.
+Deployable in anything from Python Turtle Graphics, Laravel front-end and back-end to Jitsi Meet Augmented Reality Conferencing, Phoshell is the ultimate programmer's _swiss army knife_.
 
 Inspired by the Forth programming language, Phoshell &mdash; a _stack machine shell_ &mdash; extracts the essential features of Forth, simplifies them, and can be implemented in around 50 lines of JavaScript code or equivalent in _any known programming language_.
 
@@ -16,9 +16,13 @@ Consider the following plan:
   - We have successfully copied TFJS Mask function into JitsiMeetBlurEffect.js
   - We have used ChatMessage.js as entry point to Phoshell. 
 
-- How many people? How long will it take to start contributing to Jitsi-Meet or similar projects?
 
-Phoshell is source compatible with the host Programming Language and framework. 
+
+:: mark notes with :: continuously refine notes between finished paragraphs.
+
+:: number notes, easier to organize. remove numbers when finished.
+
+1. Phoshell is source compatible with the host Programming Language and framework. 
 
 Give examples and explain. 
 Examples show:
@@ -26,11 +30,13 @@ Examples show:
 - ChatMessage addition
 - TFJS
 
-What are the hierarchy and relationships of the above and how does Phoshell relates them?
+2. What are the hierarchy and relationships of the above and how does Phoshell relates them?
+
+
+3. Familiarizing with a new framework and the structure of a new project have become one of the most time consuming tasks when a programmer takes up a new project. The amount of time spent is especially significant for programmers wishing to get involved in a new open source project. This can make or break the decision for someone to join an open source project, as the time for familiarization could be a significant ratio to the total amount of time a programmer is able to engage in an open source project, usually on a part time basis, typically starting from single digit hours per week. 
 
 A stack machine shell maps function tokens in the input, expressed in reverse Polish notation, to native functions of the host programming language. RPN is used to call functions in all the scenarios listed above. As such, ....
 
-Familiarizing with a new framework and the structure of a new project have become one of the most time consuming tasks when a programmer takes up a new project. The amount of time spent is especially significant for programmers wishing to get involved in a new open source project. This can make or break the decision for someone to join an open source project, as the time for familiarization could be a significant ratio to the total amount of time a programmer is able to engage in an open source project, usually on a part time basis, typically starting from single digit hours per week. 
 
 Explain with examples of issues in TFJS and ChatMessage etc. Time spent.
 
@@ -44,16 +50,21 @@ The uniqueness of RPN is proven in its ability to encapsulate anything from Pyth
 
 This is perhaps one of the rare few topics in computer programming that concern the whole spectrum of practical programmers to theoretical computer sientists.
 
-- AR conferencing app needs developers and users to move avatars. Use RPN, works for web, iOS and Android platforms.
+9. - AR conferencing app needs developers and users to move avatars. Use RPN, works for web, iOS and Android platforms.
 
-- Use - for new section, idea. 
-
+:: - Use - for new section, idea. 
 Easier to read. Easy to turn into numbered list or section. 
 
 Sample code: place avatar at 30 deg around table ...
 
-Use ChatMessage text input to create new UI elements, debugging facilities, build Embedded IDE etc.
+10. Use ChatMessage text input to create new UI elements, debugging facilities, build Embedded IDE etc.
 
+
+
+:: convert - bulleted headings to # headings when finished
+
+- Phoshell projects as large scale software engineering projects
+  - How many people? How long will it take to start contributing to Jitsi-Meet or similar projects?
 
 Consider N the number of programmers who have one hour free time every day. They could have write something to create AR Conferencing app. But due to time required to learn entry level knowledge (TELK), this number is greatly reduced. If we reduce TELK, then N increases.
 
