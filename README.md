@@ -76,9 +76,10 @@ Examples show:
 
 ====
 
+:: add number for psragraph first. can start using number as refernce to reorganize texts before deciding section subjects.
 
 
-We do not know what we do not know. When someone tells us something we do not know, half the time we reject it.
+5. We do not know what we do not know. When someone tells us something we do not know, half the time we reject it.
 
 Stack machine shell ("smashlet" or "shellet") is such a blind spot amongst programmers. Each and every word in the phrase "stack machine shell" is such fundamental concept that no one will think twice about it. But when chained together, the top Google search result is actually a Reddit post linked to another old repository by this GitHub user (udexon) &mdash; which means we have suceeded in defining this term.
 
@@ -114,6 +115,8 @@ Phoshell is derived from the Forth programming language, as we took critical fea
 
 Phoshell was initially implemented in PHP as an experiment to see how easy it is to implement a simplified stack machine. Eventually, we realized that this simplified stack machine can in fact be implemented in ___any known programming language___ _with the equivalent of around 50 lines of JavaScript or PHP code_, thus making the Forth like script (hence _"Phos"_) a likely candidate to be a ___universal scripting language___.
 
+
+6. 
 Simplifying React Redux Augmented Reality Programming (Jitsi Meet) using Forth derived Stack Machine Shell
 Functionalities of code become more complex. Can code be made simpler at the same time? 
 
@@ -166,7 +169,7 @@ https://medical-dictionary.thefreedictionary.com/baby+elephant+syndrome
 
 
 
-## Why R3ML?
+## 7. Why R3ML?
 
 As decribed in the following GitHub issue:
 
@@ -210,6 +213,8 @@ __We believe this is the beginning of a new era of computing:__
 
 - _If the 2010 decade is defined by iPhone and Android mobile devices, then_ ___2020s should be the era of Virtual Reality &mdash; 3D VR AR___, _with opreating systems and devices that transcend the old, but the programming language has to be_ ___powerful___ _like Forth and yet_ ___easy to learn___ _like the Turtle graphics Logo programming language._
 
+
+8. 
 Phoshell is derived from the Forth programming language, as we took critical features from Forth and simplify them, to create a highly portable stack machine shell that can be implemented in around 50 lines of JavaScript code or equivalent, that essentially does the following:
 - pushes non-function words (tokens) on to the stack;
 - executes function words and pushes the results on to the stack.
@@ -227,12 +232,14 @@ Besides Forth implementations in other programming languages (from C/C++ to Lisp
 
 <img src="https://github.com/udexon/Phoom/blob/master/jitsi_phoshell/jm_phoshell.png" width=600>
 
+9.
 baby elephant syndrome A term of art for hopeless helplessness learned in childhood, which becomes hard-wired in a person’s psyche as he or she develops and matures.
 
 Segen's Medical Dictionary. © 2012 Farlex, Inc. All rights reserved.
 
 <hr>
 
+10.
 Phoshell:  Extremely Lightweight "Super IDE" with Run-time Editing and Debugging
 
 Phoshell: A Universal, Extremely Lightweight "Embedded IDE" with Run-time Editing and Debugging Functionalities
@@ -243,16 +250,19 @@ Jitsi Phoshell:  Extremely Lightweight "Super IDE" From Python Turtle Graphics 
 
 Shell + GUI = IDE
 
+12.
 Phoshell: Overcoming Baby Elephant Syndrome amongst Programmers with a Forth inspired Stack Machine Shell
 
 Phoshell Universal Packaging System -- Phups: the Last Mile in Computer Programming
 
 Phos Package Manager PhosPM. Easier to remember like NPM. 
 
+13.
 How long does it take for you to start modifying an app whose source code is available on GitHub or equivalent open source websites?
 
 Need to compile, test run, find documentation and location and code to start modifying.
 
+14.
 What if we can do it as and when app is run?
 
 Why, who need this?
@@ -286,11 +296,9 @@ Functionalities of code become more complex. Can code be made simpler at the sam
 https://www.thestar.com.my/opinion/columnists/the-star-says/2017/08/13/free-our-young-from-the-baby-elephant-syndrome
 
 
-
+15.
 The Baby Elephant Syndrome amongst Programmers
 https://see.news/the-chained-elephants-syndrome/
-
-
 
 
 https://medical-dictionary.thefreedictionary.com/baby+elephant+syndrome
@@ -298,6 +306,7 @@ https://medical-dictionary.thefreedictionary.com/baby+elephant+syndrome
 baby elephant syndrome A term of art for hopeless helplessness learned in childhood, which becomes hard-wired in a person’s psyche as he or she develops and matures.
 Segen's Medical Dictionary. © 2012 Farlex, Inc. All rights reserved.
 
+16.
 Another misconception: GUI and CLI are unrelated. However GUI is related to graph structure, and therefore Reverse Polish Notation.
 
 - Diversification of Programming Languages
