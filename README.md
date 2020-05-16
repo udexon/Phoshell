@@ -26,6 +26,22 @@ Consider the following plan:
 
 ## 3. Blindspots of Programmers 
 
+baby elephant syndrome A term of art for hopeless helplessness learned in childhood, which becomes hard-wired in a person’s psyche as he or she develops and matures.
+
+Segen's Medical Dictionary. © 2012 Farlex, Inc. All rights reserved.
+
+
+The Baby Elephant Syndrome amongst Programmers
+https://see.news/the-chained-elephants-syndrome/
+
+
+https://medical-dictionary.thefreedictionary.com/baby+elephant+syndrome
+
+baby elephant syndrome A term of art for hopeless helplessness learned in childhood, which becomes hard-wired in a person’s psyche as he or she develops and matures.
+
+Segen's Medical Dictionary. © 2012 Farlex, Inc. All rights reserved.
+
+
 We do not know what we do not know. When someone tells us something we do not know, half the time we reject it.
 
 - The blindspots by programmers concerns GUI, CLI, stack machine shell, 
@@ -247,11 +263,6 @@ Besides Forth implementations in other programming languages (from C/C++ to Lisp
 
 <img src="https://github.com/udexon/Phoom/blob/master/jitsi_phoshell/jm_phoshell.png" width=600>
 
-9.
-baby elephant syndrome A term of art for hopeless helplessness learned in childhood, which becomes hard-wired in a person’s psyche as he or she develops and matures.
-
-Segen's Medical Dictionary. © 2012 Farlex, Inc. All rights reserved.
-
 <hr>
 
 10.
@@ -311,15 +322,6 @@ Functionalities of code become more complex. Can code be made simpler at the sam
 https://www.thestar.com.my/opinion/columnists/the-star-says/2017/08/13/free-our-young-from-the-baby-elephant-syndrome
 
 
-15.
-The Baby Elephant Syndrome amongst Programmers
-https://see.news/the-chained-elephants-syndrome/
-
-
-https://medical-dictionary.thefreedictionary.com/baby+elephant+syndrome
-
-baby elephant syndrome A term of art for hopeless helplessness learned in childhood, which becomes hard-wired in a person’s psyche as he or she develops and matures.
-Segen's Medical Dictionary. © 2012 Farlex, Inc. All rights reserved.
 
 16.
 Another misconception: GUI and CLI are unrelated. However GUI is related to graph structure, and therefore Reverse Polish Notation.
