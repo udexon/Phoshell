@@ -24,7 +24,9 @@ Consider the following plan:
 2. What are the hierarchy and relationships of the above and how does Phoshell relates them?
 
 
-3. Familiarizing with a new framework and the structure of a new project have become one of the most time consuming tasks when a programmer takes up a new project. The amount of time spent is especially significant for programmers wishing to get involved in a new open source project. This can make or break the decision for someone to join an open source project, as the time for familiarization could be a significant ratio to the total amount of time a programmer is able to engage in an open source project, usually on a part time basis, typically starting from single digit hours per week. 
+3. Problem A: TELK &mdash; Time to Acquire Entry Level Knowledge
+
+Familiarizing with a new framework and the structure of a new project have become one of the most time consuming tasks when a programmer takes up a new project. The amount of time spent is especially significant for programmers wishing to get involved in a new open source project. This can make or break the decision for someone to join an open source project, as the time for familiarization could be a significant ratio to the total amount of time a programmer is able to engage in an open source project, usually on a part time basis, typically starting from single digit hours per week. 
 
 A stack machine shell maps function tokens in the input, expressed in reverse Polish notation, to native functions of the host programming language. RPN is used to call functions in all the scenarios listed above. As such, ....
 
