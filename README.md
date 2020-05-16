@@ -44,17 +44,7 @@ The uniqueness of RPN is proven in its ability to encapsulate anything from Pyth
 This is perhaps one of the rare few topics in computer programming that concern the whole spectrum of practical programmers to theoretical computer sientists.
 
 
-:: convert - bulleted headings to # headings when finished
-
-- Phoshell projects as large scale software engineering projects
-  - How many people? How long will it take to start contributing to Jitsi-Meet or similar projects?
-
-Consider N the number of programmers who have one hour free time every day. They could have write something to create AR Conferencing app. But due to time required to learn entry level knowledge (TELK), this number is greatly reduced. If we reduce TELK, then N increases.
-
-In the least Phoshell improve documentation and reduce TELK.
-
-
-9. - AR conferencing app needs developers and users to move avatars. Use RPN, works for web, iOS and Android platforms.
+- AR conferencing app needs developers and users to move avatars. Use RPN, works for web, iOS and Android platforms.
 
 :: - Use - for new section, idea. 
 Easier to read. Easy to turn into numbered list or section. 
@@ -64,7 +54,18 @@ Sample code: place avatar at 30 deg around table ...
 Use ChatMessage text input to create new UI elements, debugging facilities, build Embedded IDE etc.
 
 
-11. Phoshell is source compatible with the host Programming Language and framework. 
+
+:: convert - bulleted headings to # headings when finished
+
+4. Phoshell projects as large scale software engineering projects
+  - How many people? How long will it take to start contributing to Jitsi-Meet or similar projects?
+
+Consider N the number of programmers who have one hour free time every day. They could have write something to create AR Conferencing app. But due to time required to learn entry level knowledge (TELK), this number is greatly reduced. If we reduce TELK, then N increases.
+
+In the least Phoshell improve documentation and reduce TELK.
+
+
+- Phoshell is source compatible with the host Programming Language and framework. 
 
 Give examples and explain. 
 Examples show:
