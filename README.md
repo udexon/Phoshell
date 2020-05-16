@@ -93,7 +93,7 @@ This blind spot amongst programmers is so serious that we may use the Baby Eleph
 - Diversification of Programming Languages and Frameworks
 - Separation of CLI and GUI
 
-### Consequences
+#### Consequences
 To TLDR the long stories:
 
 - Is it possible to unify all programming languages with a universal script?
