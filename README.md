@@ -24,7 +24,57 @@ Consider the following plan:
 2. What are the hierarchy and relationships of the above and how does Phoshell relates them?
 
 
-3. Problem A: TELK &mdash; Time to Acquire Entry Level Knowledge
+## 3. Blindspots of Programmers 
+
+We do not know what we do not know. When someone tells us something we do not know, half the time we reject it.
+
+- The blindspots by programmers concerns GUI, CLI, stack machine shell, 
+- have great consequences, including ....
+
+- 3.1 (use bulleted list for numbering subsection)
+
+Stack machine shell ("smashlet" or "shellet") is such a blind spot amongst programmers. Each and every word in the phrase "stack machine shell" is such fundamental concept that no one will think twice about it. But when chained together, the top Google search result is actually a Reddit post linked to another old repository by this GitHub user (udexon) &mdash; which means we have suceeded in defining this term.
+
+This blind spot amongst programmers is so serious that we may use the Baby Elephant Syndrome or Chained Elephant Syndrome to describe it. It concerns two of the biggest controversies in computer programming:
+
+- Diversification of Programming Languages and Frameworks
+- Separation of CLI and GUI
+
+#### Consequences
+To TLDR the long stories:
+
+- Is it possible to unify all programming languages with a universal script?
+- Is it possible to create a CLI shell that can program GUI interactively?
+
+What are the problems we are trying to solve?
+
+1. The good old learning curve to pick up a new framework / programming language (JavaScript React Redux).
+
+2. Lack of a powerful live debugging system like Forth for new programmers to debug and learn the internal workings of Jitsi.
+
+3. Both reasons above contribute to lack of documentation and manpower to prepare documentation, which lead to a positive feedback in difficulties in getting more developers.
+
+Hence we hope R3ML will overcome these problems, perhaps enable thousands more developers to join our effort &mdash; ___Phoom: an augmented reality conferencing app___. 
+
+The 3 problems mentioned above are not unique to Jitsi. They are perhaps generic to many other free software / open source projects.
+
+https://github.com/udexon/Phoom/blob/master/R3ML_Jitsi_Phoom.md
+
+We illustrate how stack machine shell resolves these issues by using Jitsi-Meet as example.
+
+- 3.2 Phoshell definition
+
+Phoshell is derived from the Forth programming language, as we took critical features from Forth and simplify them, to create a highly portable stack machine shell that can be implemented in around 50 lines of JavaScript code or equivalent, that essentially does the following:
+- pushes non-function words (tokens) on to the stack;
+- executes function words and pushes the results on to the stack.
+
+Phoshell was initially implemented in PHP as an experiment to see how easy it is to implement a simplified stack machine. Eventually, we realized that this simplified stack machine can in fact be implemented in ___any known programming language___ _with the equivalent of around 50 lines of JavaScript or PHP code_, thus making the Forth like script (hence _"Phos"_) a likely candidate to be a ___universal scripting language___.
+
+
+
+4. Problem A: TELK &mdash; Time to Acquire Entry Level Knowledge
+
+:: this is part of blindspots
 
 Familiarizing with a new framework and the structure of a new project have become one of the most time consuming tasks when a programmer takes up a new project. The amount of time spent is especially significant for programmers wishing to get involved in a new open source project. This can make or break the decision for someone to join an open source project, as the time for familiarization could be a significant ratio to the total amount of time a programmer is able to engage in an open source project, usually on a part time basis, typically starting from single digit hours per week. 
 
@@ -79,49 +129,6 @@ Examples show:
 :: add number for psragraph first. can start using number as refernce to reorganize texts before deciding section subjects.
 
 
-5. We do not know what we do not know. When someone tells us something we do not know, half the time we reject it.
-
-- The blindspots by programmers concerns GUI, CLI, stack machine shell, 
-- have great consequences, including ....
-
-- 5.1 (use bulleted list for numbering subsection)
-
-Stack machine shell ("smashlet" or "shellet") is such a blind spot amongst programmers. Each and every word in the phrase "stack machine shell" is such fundamental concept that no one will think twice about it. But when chained together, the top Google search result is actually a Reddit post linked to another old repository by this GitHub user (udexon) &mdash; which means we have suceeded in defining this term.
-
-This blind spot amongst programmers is so serious that we may use the Baby Elephant Syndrome or Chained Elephant Syndrome to describe it. It concerns two of the biggest controversies in computer programming:
-
-- Diversification of Programming Languages and Frameworks
-- Separation of CLI and GUI
-
-#### Consequences
-To TLDR the long stories:
-
-- Is it possible to unify all programming languages with a universal script?
-- Is it possible to create a CLI shell that can program GUI interactively?
-
-What are the problems we are trying to solve?
-
-1. The good old learning curve to pick up a new framework / programming language (JavaScript React Redux).
-
-2. Lack of a powerful live debugging system like Forth for new programmers to debug and learn the internal workings of Jitsi.
-
-3. Both reasons above contribute to lack of documentation and manpower to prepare documentation, which lead to a positive feedback in difficulties in getting more developers.
-
-Hence we hope R3ML will overcome these problems, perhaps enable thousands more developers to join our effort &mdash; ___Phoom: an augmented reality conferencing app___. 
-
-The 3 problems mentioned above are not unique to Jitsi. They are perhaps generic to many other free software / open source projects.
-
-https://github.com/udexon/Phoom/blob/master/R3ML_Jitsi_Phoom.md
-
-We illustrate how stack machine shell resolves these issues by using Jitsi-Meet as example.
-
-- 5.2 Phoshell definition
-
-Phoshell is derived from the Forth programming language, as we took critical features from Forth and simplify them, to create a highly portable stack machine shell that can be implemented in around 50 lines of JavaScript code or equivalent, that essentially does the following:
-- pushes non-function words (tokens) on to the stack;
-- executes function words and pushes the results on to the stack.
-
-Phoshell was initially implemented in PHP as an experiment to see how easy it is to implement a simplified stack machine. Eventually, we realized that this simplified stack machine can in fact be implemented in ___any known programming language___ _with the equivalent of around 50 lines of JavaScript or PHP code_, thus making the Forth like script (hence _"Phos"_) a likely candidate to be a ___universal scripting language___.
 
 
 6. 
