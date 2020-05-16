@@ -81,6 +81,11 @@ Examples show:
 
 5. We do not know what we do not know. When someone tells us something we do not know, half the time we reject it.
 
+- The blindspots by programmers concerns GUI, CLI, stack machine shell, 
+- have great consequences, including ....
+
+- 5.1 (use bulleted list for numbering subsection)
+
 Stack machine shell ("smashlet" or "shellet") is such a blind spot amongst programmers. Each and every word in the phrase "stack machine shell" is such fundamental concept that no one will think twice about it. But when chained together, the top Google search result is actually a Reddit post linked to another old repository by this GitHub user (udexon) &mdash; which means we have suceeded in defining this term.
 
 This blind spot amongst programmers is so serious that we may use the Baby Elephant Syndrome or Chained Elephant Syndrome to describe it. It concerns two of the biggest controversies in computer programming:
@@ -88,6 +93,7 @@ This blind spot amongst programmers is so serious that we may use the Baby Eleph
 - Diversification of Programming Languages and Frameworks
 - Separation of CLI and GUI
 
+### Consequences
 To TLDR the long stories:
 
 - Is it possible to unify all programming languages with a universal script?
@@ -108,6 +114,8 @@ The 3 problems mentioned above are not unique to Jitsi. They are perhaps generic
 https://github.com/udexon/Phoom/blob/master/R3ML_Jitsi_Phoom.md
 
 We illustrate how stack machine shell resolves these issues by using Jitsi-Meet as example.
+
+- 5.2 Phoshell definition
 
 Phoshell is derived from the Forth programming language, as we took critical features from Forth and simplify them, to create a highly portable stack machine shell that can be implemented in around 50 lines of JavaScript code or equivalent, that essentially does the following:
 - pushes non-function words (tokens) on to the stack;
