@@ -207,6 +207,8 @@ Functionalities of code become more complex.
 Jitsi Meet is field tested, large scale, 100 mb in zip size ... one of the biggest project of any kind, Redux , besides libreoffice. Merge all apps with Phoshell? With all platform module: web, Android, iOS. Active developments, how many commits per week, consistently? 
 
 
+### 2.5
+
 In the least Phoshell improve documentation and reduce TELK.
 
 - Phoshell is source compatible with the host Programming Language and framework. 
