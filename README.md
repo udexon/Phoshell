@@ -1,8 +1,8 @@
 ## Phoshell: Simplifying Programming with Forth inspired Stack Machine Shell
-- Phoshell
+
 - Phoshell: A Universal, Extremely Lightweight "Embedded IDE" with Run-time Editing and Debugging Functionalities
 
-  - Phoshell: a Forth inspired, extremely lightweight stack machine shell, implementable in _ALL_ known programming languages.
+- Phoshell: a Forth inspired, extremely lightweight stack machine shell, implementable in _ALL_ known programming languages.
 
 :: Need to separate contents for senior vs. junior programmers. 
 
@@ -112,6 +112,29 @@ This is perhaps one of the rare few topics in computer programming that concern 
 - Deployable in anything from Python Turtle Graphics, Laravel front-end and back-end to Jitsi Meet Augmented Reality Conferencing, Phoshell is the ultimate programmer's _swiss army knife_.
 
 Inspired by the Forth programming language, Phoshell &mdash; a _stack machine shell_ &mdash; extracts the essential features of Forth, simplifies them, and can be implemented in around 50 lines of JavaScript code or equivalent in _any known programming language_.
+
+
+
+### 2.2 History of Stack Machine Systems
+
+- Perhaps the biggest mystery in the short history of computer programming?
+  - Have `dc` and Forth programmers ever corssed path?
+
+https://en.wikipedia.org/wiki/Reverse_Polish_notation
+
+Other RP camps? Algol Unilever Burroughs?
+
+HP calculators?
+
+Other RP engineers?
+
+First Unix shell is reverse polish.
+
+https://en.wikipedia.org/wiki/Dc_(computer_program)
+
+Unix claimed the high ground for shell and programming language tools. Forth lost out. Making a comeback.
+
+http://phos.epizy.com/smashlet/?i=1
 
 
 
@@ -240,28 +263,6 @@ Jitsi Meet is field tested, large scale, 100 mb in zip size ... one of the bigge
 
 
 
-
-
-## 5. History of Stack Machine Systems
-
-- Perhaps the biggest mystery in the short history of computer programming?
-  - Have `dc` and Forth programmers ever corssed path?
-
-https://en.wikipedia.org/wiki/Reverse_Polish_notation
-
-Other RP camps? Algol Unilever Burroughs?
-
-HP calculators?
-
-Other RP engineers?
-
-First Unix shell is reverse polish.
-
-https://en.wikipedia.org/wiki/Dc_(computer_program)
-
-Unix claimed the high ground for shell and programming language tools. Forth lost out. Making a comeback.
-
-http://phos.epizy.com/smashlet/?i=1
 
 
 
