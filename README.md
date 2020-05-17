@@ -34,29 +34,32 @@ Consider the following plan:
 
 Familiarizing with a new framework and the structure of a new project have become one of the most time consuming tasks when a programmer takes up a new project. The amount of time spent is especially significant for programmers wishing to get involved in a new open source project. This can make or break the decision for someone to join an open source project, as the time for familiarization could be a significant ratio to the total amount of time a programmer is able to engage in an open source project, usually on a part time basis, typically starting from single digit hours per week. 
 
+By encapsulating framework and programming language specific details with RPN, programmers who are  unfamiliar with them may jump start and see results immediately.
+
+Assuming exponential decay for number of interested programmers vs. time spent, then hopefully we may improve recruitments in open source projects exponentially by cutting down time needed to familiarize and see results. 
+
+
+- AR conferencing app needs developers and users to move avatars. Use RPN, works for web, iOS and Android platforms.
+
+Sample code: place avatar at 30 deg around table ...
+
+Use ChatMessage text input to create new UI elements, debugging facilities, build Embedded IDE etc.
+
+
+
+:: - Use - for new section, idea. 
+Easier to read. Easy to turn into numbered list or section. 
+
 A stack machine shell maps function tokens in the input, expressed in reverse Polish notation, to native functions of the host programming language. RPN is used to call functions in all the scenarios listed above. As such, ....
 
 Explain with examples of issues in TFJS and ChatMessage etc. Time spent.
 
-Assume exponential decay for number of interested programmers vs. time spent, then hopefully we may improve recruitments in open source projects exponentially by cutting down time needed to familiarize and see results. 
-
-By encapsulating framework and programming language specific details with RPN, programmers who are  unfamiliar with them may jump start and see results immediately.
 
 The uniqueness of RPN is proven in its ability to encapsulate anything from Python turtle graphics to Jitsi Meet TFJS. The mechanisms behind this are some of the most fundamental principles in programming and mathematics. 
 
 - What do these mean for mortal programmers practically vs. LISPers and computer scientists theoretically?
 
 This is perhaps one of the rare few topics in computer programming that concern the whole spectrum of practical programmers to theoretical computer sientists.
-
-
-- AR conferencing app needs developers and users to move avatars. Use RPN, works for web, iOS and Android platforms.
-
-:: - Use - for new section, idea. 
-Easier to read. Easy to turn into numbered list or section. 
-
-Sample code: place avatar at 30 deg around table ...
-
-Use ChatMessage text input to create new UI elements, debugging facilities, build Embedded IDE etc.
 
 
 
