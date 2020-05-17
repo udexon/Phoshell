@@ -1,22 +1,40 @@
-# Phoshell
+## Phoshell: Simplifying Programming with Forth inspired Stack Machine Shell
+- Phoshell
 - Phoshell: A Universal, Extremely Lightweight "Embedded IDE" with Run-time Editing and Debugging Functionalities
 
   - Phoshell: a Forth inspired, extremely lightweight stack machine shell, implementable in _ALL_ known programming languages.
 
-Need to separate contents for senior vs. junior programmers. 
+:: Need to separate contents for senior vs. junior programmers. 
 
-Highlight SIMPLIFYING PROGRAMMING.
+:: Highlight SIMPLIFYING PROGRAMMING.
 
-Phoshell: Simplifying Programming with Forth inspired Stack Machine Shell
+
 
 1. Problem A: TELK &mdash; Time to Acquire Entry Level Knowledge
+
+
+One of the biggest obstacles in working on a large scale open source repository such as Jitsi Meet is the lack of documentations for a new comer to familiarize with the respective modules and begin modifying the code.
+
+Consider the following plan:
+
+- Phoom link. We wish to create an Augmented Reality Conferencing App, based on Jitsi Meet Video Conferencing App.
+  - We have successfully copied TFJS Mask function into JitsiMeetBlurEffect.js
+  - We have used ChatMessage.js as entry point to Phoshell. 
+
+:: describe A to Z of plan
+
+:: mark notes with :: continuously refine notes between finished paragraphs.
+:: number notes, easier to organize. remove numbers when finished.
+
+- What are the hierarchy and relationships of the above and how does Phoshell relates them?
+
+
 
 :: this is part of blindspots
 
 Familiarizing with a new framework and the structure of a new project have become one of the most time consuming tasks when a programmer takes up a new project. The amount of time spent is especially significant for programmers wishing to get involved in a new open source project. This can make or break the decision for someone to join an open source project, as the time for familiarization could be a significant ratio to the total amount of time a programmer is able to engage in an open source project, usually on a part time basis, typically starting from single digit hours per week. 
 
 A stack machine shell maps function tokens in the input, expressed in reverse Polish notation, to native functions of the host programming language. RPN is used to call functions in all the scenarios listed above. As such, ....
-
 
 Explain with examples of issues in TFJS and ChatMessage etc. Time spent.
 
@@ -46,25 +64,9 @@ Use ChatMessage text input to create new UI elements, debugging facilities, buil
 
 
 
-Deployable in anything from Python Turtle Graphics, Laravel front-end and back-end to Jitsi Meet Augmented Reality Conferencing, Phoshell is the ultimate programmer's _swiss army knife_.
+2. Deployable in anything from Python Turtle Graphics, Laravel front-end and back-end to Jitsi Meet Augmented Reality Conferencing, Phoshell is the ultimate programmer's _swiss army knife_.
 
 Inspired by the Forth programming language, Phoshell &mdash; a _stack machine shell_ &mdash; extracts the essential features of Forth, simplifies them, and can be implemented in around 50 lines of JavaScript code or equivalent in _any known programming language_.
-
-One of the biggest obstacles in working on a large scale open source repository such as Jitsi Meet is the lack of documentations for a new comer to familiarize with the respective modules and begin modifying the code.
-
-Consider the following plan:
-
-- Phoom link. We wish to create an Augmented Reality Conferencing App, based on Jitsi Meet Video Conferencing App.
-  - We have successfully copied TFJS Mask function into JitsiMeetBlurEffect.js
-  - We have used ChatMessage.js as entry point to Phoshell. 
-
-:: describe A to Z of plan
-
-:: mark notes with :: continuously refine notes between finished paragraphs.
-:: number notes, easier to organize. remove numbers when finished.
-
-2. What are the hierarchy and relationships of the above and how does Phoshell relates them?
-
 
 ## 3. Blindspots of Programmers 
 
