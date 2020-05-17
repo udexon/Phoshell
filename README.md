@@ -102,6 +102,7 @@ Easier to read. Easy to turn into numbered list or section.
 - 3.3 Consequences / 4 Simplifing
   - 4 Simplifying is short term consequences
   - 3.3 contains long term consequences
+  - focus on 4. 4 is related to 2. Once 4 is finished, issues related to 3 will be clarified.
   - swap 3 and 4
 - 7: 3 problems have been copied to 3.3 / can be ignored
 
