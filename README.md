@@ -92,6 +92,16 @@ Easier to read. Easy to turn into numbered list or section.
 
 ## 2. Theoretical Foundations of Phoshell
 
+
+- 2.1 Phoshell definition
+
+Phoshell is derived from the Forth programming language, as we took critical features from Forth and simplify them, to create a highly portable stack machine shell that can be implemented in around 50 lines of JavaScript code or equivalent, that essentially does the following:
+- pushes non-function words (tokens) on to the stack;
+- executes function words and pushes the results on to the stack.
+
+Phoshell was initially implemented in PHP as an experiment to see how easy it is to implement a simplified stack machine. Eventually, we realized that this simplified stack machine can in fact be implemented in ___any known programming language___ _with the equivalent of around 50 lines of JavaScript or PHP code_, thus making the Forth like script (hence _"Phos"_) a likely candidate to be a ___universal scripting language___.
+
+
 A stack machine shell maps function tokens in the input, expressed in reverse Polish notation, to native functions of the host programming language. RPN is used to call functions in all the scenarios listed above. As such, ....
 
 Explain with examples of issues in TFJS and ChatMessage etc. Time spent.
@@ -237,14 +247,6 @@ The 3 problems mentioned above are not unique to Jitsi. They are perhaps generic
 https://github.com/udexon/Phoom/blob/master/R3ML_Jitsi_Phoom.md
 
 We illustrate how stack machine shell resolves these issues by using Jitsi-Meet as example.
-
-- 3.2 Phoshell definition
-
-Phoshell is derived from the Forth programming language, as we took critical features from Forth and simplify them, to create a highly portable stack machine shell that can be implemented in around 50 lines of JavaScript code or equivalent, that essentially does the following:
-- pushes non-function words (tokens) on to the stack;
-- executes function words and pushes the results on to the stack.
-
-Phoshell was initially implemented in PHP as an experiment to see how easy it is to implement a simplified stack machine. Eventually, we realized that this simplified stack machine can in fact be implemented in ___any known programming language___ _with the equivalent of around 50 lines of JavaScript or PHP code_, thus making the Forth like script (hence _"Phos"_) a likely candidate to be a ___universal scripting language___.
 
 
 - 3.4 Phoshell projects as large scale software engineering projects
