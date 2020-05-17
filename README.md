@@ -207,6 +207,16 @@ Functionalities of code become more complex.
 Jitsi Meet is field tested, large scale, 100 mb in zip size ... one of the biggest project of any kind, Redux , besides libreoffice. Merge all apps with Phoshell? With all platform module: web, Android, iOS. Active developments, how many commits per week, consistently? 
 
 
+In the least Phoshell improve documentation and reduce TELK.
+
+- Phoshell is source compatible with the host Programming Language and framework. 
+
+Give examples and explain. 
+Examples show:
+- Python turtle graphics
+- ChatMessage addition
+- TFJS
+
 
 
 
@@ -293,17 +303,6 @@ We illustrate how stack machine shell resolves these issues by using Jitsi-Meet 
   - How many people? How long will it take to start contributing to Jitsi-Meet or similar projects?
 
 Consider N the number of programmers who have one hour free time every day. They could have write something to create AR Conferencing app. But due to time required to learn entry level knowledge (TELK), this number is greatly reduced. If we reduce TELK, then N increases.
-
-In the least Phoshell improve documentation and reduce TELK.
-
-
-- Phoshell is source compatible with the host Programming Language and framework. 
-
-Give examples and explain. 
-Examples show:
-- Python turtle graphics
-- ChatMessage addition
-- TFJS
 
 
 ====
