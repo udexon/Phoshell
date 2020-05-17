@@ -99,6 +99,17 @@ We do not know what we do not know. When someone tells us something we do not kn
 - have great consequences, including ....
 
 
+Phoshell: Overcoming Baby Elephant Syndrome amongst Programmers with a Forth inspired Stack Machine Shell
+
+https://www.thestar.com.my/opinion/columnists/the-star-says/2017/08/13/free-our-young-from-the-baby-elephant-syndrome
+
+The Baby Elephant Syndrome amongst Programmers
+
+https://see.news/the-chained-elephants-syndrome/
+
+https://medical-dictionary.thefreedictionary.com/baby+elephant+syndrome
+
+
 - 3.1 (use bulleted list for numbering subsection)
 
 Stack machine shell ("smashlet" or "shellet") is such a blind spot amongst programmers. Each and every word in the phrase "stack machine shell" is such fundamental concept that no one will think twice about it. But when chained together, the top Google search result is actually a Reddit post linked to another old repository by this GitHub user (udexon) &mdash; which means we have suceeded in defining this term.
@@ -108,13 +119,19 @@ This blind spot amongst programmers is so serious that we may use the Baby Eleph
 - Diversification of Programming Languages and Frameworks
 - Separation of CLI and GUI
 
+
+- 3.2 Blindspot: Shell is supposed to simplify things (what things?), but most programmers thought that shell is a huge mysterious beast like Bash which is beyond the reach of common mortals. Thanks to Unix GNU?
+
+Subconcious conditioning, like the little elephant in the circus. Trained not to escape, tied to a pole. When grown up, also not espcaping.
+
+
 #### Consequences
 To TLDR the long stories:
 
 - Is it possible to unify all programming languages with a universal script?
 - Is it possible to create a CLI shell that can program GUI interactively?
 
-What are the problems we are trying to solve?
+### 3.3 What are the problems we are trying to solve?
 
 1. The good old learning curve to pick up a new framework / programming language (JavaScript React Redux).
 
@@ -139,7 +156,7 @@ Phoshell is derived from the Forth programming language, as we took critical fea
 Phoshell was initially implemented in PHP as an experiment to see how easy it is to implement a simplified stack machine. Eventually, we realized that this simplified stack machine can in fact be implemented in ___any known programming language___ _with the equivalent of around 50 lines of JavaScript or PHP code_, thus making the Forth like script (hence _"Phos"_) a likely candidate to be a ___universal scripting language___.
 
 
-4. Phoshell projects as large scale software engineering projects
+- 3.4 Phoshell projects as large scale software engineering projects
   - How many people? How long will it take to start contributing to Jitsi-Meet or similar projects?
 
 Consider N the number of programmers who have one hour free time every day. They could have write something to create AR Conferencing app. But due to time required to learn entry level knowledge (TELK), this number is greatly reduced. If we reduce TELK, then N increases.
@@ -163,22 +180,21 @@ Examples show:
 
 
 
-6. 
+## 4. Simplifying React Redux Augmented Reality Programming (Jitsi Meet)
+
 Simplifying React Redux Augmented Reality Programming (Jitsi Meet) using Forth derived Stack Machine Shell
-Functionalities of code become more complex. Can code be made simpler at the same time? 
+Functionalities of code become more complex. 
 
-Another misconception: GUI and CLI are unrelated. However GUI is related to graph structure, and therefore Reverse Polish Notation.
+1. Can code be made simpler at the same time? 
 
+2. Another misconception: GUI and CLI are unrelated. However GUI is related to graph structure, and therefore Reverse Polish Notation.
 
-Compare Smashlet to Redux, both in footprint and architecture. 
+3. Compare Smashlet to Redux, both in footprint and architecture. 
 
 Jitsi Meet is field tested, large scale, 100 mb in zip size ... one of the biggest project of any kind, Redux , besides libreoffice. Merge all apps with Phoshell? With all platform module: web, Android, iOS. Active developments, how many commits per week, consistently? 
 
 
-
-Shell is supposed to simplify things (what things?), but most programmers thought that shell is a huge mysterious beast like Bash which is beyond the reach of common mortals. Thanks to Unix GNU?
-
-Subconcious conditioning, like the little elephant in the circus. Trained not to escape, tied to a pole. When grown up, also not espcaping.
+## 5. History of Stack Machine Systems
 
 - Perhaps the biggest mystery in the short history of computer programming?
   - Have `dc` and Forth programmers ever corssed path?
@@ -198,21 +214,6 @@ https://en.wikipedia.org/wiki/Dc_(computer_program)
 Unix claimed the high ground for shell and programming language tools. Forth lost out. Making a comeback.
 
 http://phos.epizy.com/smashlet/?i=1
-
-Phoshell: Overcoming Baby Elephant Syndrome amongst Programmers with a Forth inspired Stack Machine Shell
-
- 
-
-
-https://www.thestar.com.my/opinion/columnists/the-star-says/2017/08/13/free-our-young-from-the-baby-elephant-syndrome
-
-
-
-The Baby Elephant Syndrome amongst Programmers
-
-https://see.news/the-chained-elephants-syndrome/
-
-https://medical-dictionary.thefreedictionary.com/baby+elephant+syndrome
 
 
 
@@ -261,7 +262,8 @@ __We believe this is the beginning of a new era of computing:__
 - _If the 2010 decade is defined by iPhone and Android mobile devices, then_ ___2020s should be the era of Virtual Reality &mdash; 3D VR AR___, _with opreating systems and devices that transcend the old, but the programming language has to be_ ___powerful___ _like Forth and yet_ ___easy to learn___ _like the Turtle graphics Logo programming language._
 
 
-8. 
+## 8. Phoshell Background and Examples
+
 Phoshell is derived from the Forth programming language, as we took critical features from Forth and simplify them, to create a highly portable stack machine shell that can be implemented in around 50 lines of JavaScript code or equivalent, that essentially does the following:
 - pushes non-function words (tokens) on to the stack;
 - executes function words and pushes the results on to the stack.
@@ -281,23 +283,23 @@ Besides Forth implementations in other programming languages (from C/C++ to Lisp
 
 <hr>
 
-10.
+10. Tentative Titles
+
 Phoshell:  Extremely Lightweight "Super IDE" with Run-time Editing and Debugging
 
 Phoshell: A Universal, Extremely Lightweight "Embedded IDE" with Run-time Editing and Debugging Functionalities
-
 
 Jitsi Phoshell:  Extremely Lightweight "Super IDE" From Python Turtle Graphics to Jitsi Meet Augmented Reality Conferencing
 
 
 Shell + GUI = IDE
 
-12.
+
 Phoshell: Overcoming Baby Elephant Syndrome amongst Programmers with a Forth inspired Stack Machine Shell
 
 Phoshell Universal Packaging System -- Phups: the Last Mile in Computer Programming
 
-Phos Package Manager PhosPM. Easier to remember like NPM. 
+12. Phos Package Manager PhosPM. Easier to remember like NPM. 
 
 13.
 How long does it take for you to start modifying an app whose source code is available on GitHub or equivalent open source websites?
@@ -314,7 +316,6 @@ Need to write in such a way that readers who know nothing about Phoshell can und
 Nearest experience is Python shell? 
 
 Use Python turtle graphics with and without Phoshell as example, to illustrate interactive input output with graphics. 
-
 
 New title: the Last Mile in Computer Programming
 
