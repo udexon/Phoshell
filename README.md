@@ -98,9 +98,12 @@ Easier to read. Easy to turn into numbered list or section.
 4. Simplifying React Redux Augmented Reality Programming (Jitsi Meet)
 7. Why R3ML?
 
-- TELL / Bllindspots
+- TELK / Bllindspots
 - 3.3 Consequences / 4 Simplifing
-- 7: 3 problems have been copied to 3.3
+  - 4 Simplifying is short term consequences
+  - 3.3 contains long term consequences
+  - swap 3 and 4
+- 7: 3 problems have been copied to 3.3 / can be ignored
 
 ## 2. Theoretical Foundations of Phoshell
 
