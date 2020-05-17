@@ -92,10 +92,11 @@ Easier to read. Easy to turn into numbered list or section.
 
 - Sections
 1. TELK
-2. Phoshell
-3. Blindspots
+2. Simplify How? Phoshell
+- 2.4 Simplifying React Redux Augmented Reality Programming (Jitsi Meet)
+3. Simplify / other consequences? Blindspots
 - 3.3 What are the problems we are trying to solve? Consequences
-4. Simplifying React Redux Augmented Reality Programming (Jitsi Meet)
+
 7. Why R3ML?
 
 - TELK / Bllindspots
