@@ -169,7 +169,7 @@ http://phos.epizy.com/smashlet/?i=1
 
 
 
-### 2.3 Phoshell Background and Examples
+### 2.3 Phoshell Background
 
 Phoshell is derived from the Forth programming language, as we took critical features from Forth and simplify them, to create a highly portable stack machine shell that can be implemented in around 50 lines of JavaScript code or equivalent, that essentially does the following:
 - pushes non-function words (tokens) on to the stack;
@@ -184,6 +184,20 @@ Besides Forth implementations in other programming languages (from C/C++ to Lisp
 - An attempt to implement raw Forth within Firefox JavaScript engine as a ___compatible___ alternative to WebAssembly
 
 
+
+### 2.4 Phoshell Examples
+
+In the least Phoshell improve documentation and reduce TELK.
+
+- Phoshell is source compatible with the host Programming Language and framework. 
+
+Give examples and explain. 
+Examples show:
+- Python turtle graphics
+- ChatMessage addition
+- TFJS
+
+
 <img src="https://github.com/udexon/Phoom/blob/master/jitsi_phoshell/jm_chat_icon.png" width=600>
 
 <img src="https://github.com/udexon/Phoom/blob/master/jitsi_phoshell/jm_phoshell.png" width=600>
@@ -191,9 +205,7 @@ Besides Forth implementations in other programming languages (from C/C++ to Lisp
 <hr>
 
 
-
-
-## 2.4 Simplifying React Redux Augmented Reality Programming (Jitsi Meet)
+## 2.5 Simplifying React Redux Augmented Reality Programming (Jitsi Meet)
 
 Simplifying React Redux Augmented Reality Programming (Jitsi Meet) using Forth derived Stack Machine Shell
 Functionalities of code become more complex. 
@@ -205,19 +217,6 @@ Functionalities of code become more complex.
 3. Compare Smashlet to Redux, both in footprint and architecture. 
 
 Jitsi Meet is field tested, large scale, 100 mb in zip size ... one of the biggest project of any kind, Redux , besides libreoffice. Merge all apps with Phoshell? With all platform module: web, Android, iOS. Active developments, how many commits per week, consistently? 
-
-
-### 2.5
-
-In the least Phoshell improve documentation and reduce TELK.
-
-- Phoshell is source compatible with the host Programming Language and framework. 
-
-Give examples and explain. 
-Examples show:
-- Python turtle graphics
-- ChatMessage addition
-- TFJS
 
 
 
