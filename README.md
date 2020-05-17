@@ -92,12 +92,16 @@ Easier to read. Easy to turn into numbered list or section.
 
 - Sections
 1. TELK
-2. Simplify How? Phoshell
+
+2. Simplify HOW? Phoshell: just list examples to show HOW.
 - 2.4 Simplifying React Redux Augmented Reality Programming (Jitsi Meet)
-3. Simplify / other consequences? Blindspots
+
+3. Simplify / other consequences? Additional discussions and analysis, with or without code.
+- Blindspots
 - 3.3 What are the problems we are trying to solve? Consequences
 
 7. Why R3ML?
+- 7: 3 problems have been copied to 3.3 / can be ignored
 
 - TELK / Bllindspots
 - 3.3 Consequences / 4 Simplifing
@@ -105,7 +109,7 @@ Easier to read. Easy to turn into numbered list or section.
   - 3.3 contains long term consequences
   - focus on 4. 4 is related to 2. Once 4 is finished, issues related to 3 will be clarified.
   - swap 3 and 4
-- 7: 3 problems have been copied to 3.3 / can be ignored
+
 
 ## 2. Theoretical Foundations of Phoshell
 
