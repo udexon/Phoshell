@@ -187,6 +187,24 @@ Besides Forth implementations in other programming languages (from C/C++ to Lisp
 
 
 
+
+## 2.4 Simplifying React Redux Augmented Reality Programming (Jitsi Meet)
+
+Simplifying React Redux Augmented Reality Programming (Jitsi Meet) using Forth derived Stack Machine Shell
+Functionalities of code become more complex. 
+
+1. Can code be made simpler at the same time? 
+
+2. Another misconception: GUI and CLI are unrelated. However GUI is related to graph structure, and therefore Reverse Polish Notation.
+
+3. Compare Smashlet to Redux, both in footprint and architecture. 
+
+Jitsi Meet is field tested, large scale, 100 mb in zip size ... one of the biggest project of any kind, Redux , besides libreoffice. Merge all apps with Phoshell? With all platform module: web, Android, iOS. Active developments, how many commits per week, consistently? 
+
+
+
+
+
 ## 3. Blindspots of Programmers 
 
 baby elephant syndrome A term of art for hopeless helplessness learned in childhood, which becomes hard-wired in a person’s psyche as he or she develops and matures.
@@ -286,22 +304,6 @@ Examples show:
 ====
 
 :: add number for psragraph first. can start using number as refernce to reorganize texts before deciding section subjects.
-
-
-
-
-## 4. Simplifying React Redux Augmented Reality Programming (Jitsi Meet)
-
-Simplifying React Redux Augmented Reality Programming (Jitsi Meet) using Forth derived Stack Machine Shell
-Functionalities of code become more complex. 
-
-1. Can code be made simpler at the same time? 
-
-2. Another misconception: GUI and CLI are unrelated. However GUI is related to graph structure, and therefore Reverse Polish Notation.
-
-3. Compare Smashlet to Redux, both in footprint and architecture. 
-
-Jitsi Meet is field tested, large scale, 100 mb in zip size ... one of the biggest project of any kind, Redux , besides libreoffice. Merge all apps with Phoshell? With all platform module: web, Android, iOS. Active developments, how many commits per week, consistently? 
 
 
 
