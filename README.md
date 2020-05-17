@@ -3,6 +3,48 @@
 
   - Phoshell: a Forth inspired, extremely lightweight stack machine shell, implementable in _ALL_ known programming languages.
 
+Need to separate contents for senior vs. junior programmers. 
+
+Highlight SIMPLIFYING PROGRAMMING.
+
+Phoshell: Simplifying Programming with Forth inspired Stack Machine Shell
+
+1. Problem A: TELK &mdash; Time to Acquire Entry Level Knowledge
+
+:: this is part of blindspots
+
+Familiarizing with a new framework and the structure of a new project have become one of the most time consuming tasks when a programmer takes up a new project. The amount of time spent is especially significant for programmers wishing to get involved in a new open source project. This can make or break the decision for someone to join an open source project, as the time for familiarization could be a significant ratio to the total amount of time a programmer is able to engage in an open source project, usually on a part time basis, typically starting from single digit hours per week. 
+
+A stack machine shell maps function tokens in the input, expressed in reverse Polish notation, to native functions of the host programming language. RPN is used to call functions in all the scenarios listed above. As such, ....
+
+
+Explain with examples of issues in TFJS and ChatMessage etc. Time spent.
+
+Assume exponential decay for number of interested programmers vs. time spent, then hopefully we may improve recruitments in open source projects exponentially by cutting down time needed to familiarize and see results. 
+
+By encapsulating framework and programming language specific details with RPN, programmers who are  unfamiliar with them may jump start and see results immediately.
+
+The uniqueness of RPN is proven in its ability to encapsulate anything from Python turtle graphics to Jitsi Meet TFJS. The mechanisms behind this are some of the most fundamental principles in programming and mathematics. 
+
+- What do these mean for mortal programmers practically vs. LISPers and computer scientists theoretically?
+
+This is perhaps one of the rare few topics in computer programming that concern the whole spectrum of practical programmers to theoretical computer sientists.
+
+
+- AR conferencing app needs developers and users to move avatars. Use RPN, works for web, iOS and Android platforms.
+
+:: - Use - for new section, idea. 
+Easier to read. Easy to turn into numbered list or section. 
+
+Sample code: place avatar at 30 deg around table ...
+
+Use ChatMessage text input to create new UI elements, debugging facilities, build Embedded IDE etc.
+
+
+
+:: convert - bulleted headings to # headings when finished
+
+
 
 Deployable in anything from Python Turtle Graphics, Laravel front-end and back-end to Jitsi Meet Augmented Reality Conferencing, Phoshell is the ultimate programmer's _swiss army knife_.
 
@@ -86,42 +128,6 @@ Phoshell is derived from the Forth programming language, as we took critical fea
 
 Phoshell was initially implemented in PHP as an experiment to see how easy it is to implement a simplified stack machine. Eventually, we realized that this simplified stack machine can in fact be implemented in ___any known programming language___ _with the equivalent of around 50 lines of JavaScript or PHP code_, thus making the Forth like script (hence _"Phos"_) a likely candidate to be a ___universal scripting language___.
 
-
-
-4. Problem A: TELK &mdash; Time to Acquire Entry Level Knowledge
-
-:: this is part of blindspots
-
-Familiarizing with a new framework and the structure of a new project have become one of the most time consuming tasks when a programmer takes up a new project. The amount of time spent is especially significant for programmers wishing to get involved in a new open source project. This can make or break the decision for someone to join an open source project, as the time for familiarization could be a significant ratio to the total amount of time a programmer is able to engage in an open source project, usually on a part time basis, typically starting from single digit hours per week. 
-
-A stack machine shell maps function tokens in the input, expressed in reverse Polish notation, to native functions of the host programming language. RPN is used to call functions in all the scenarios listed above. As such, ....
-
-
-Explain with examples of issues in TFJS and ChatMessage etc. Time spent.
-
-Assume exponential decay for number of interested programmers vs. time spent, then hopefully we may improve recruitments in open source projects exponentially by cutting down time needed to familiarize and see results. 
-
-By encapsulating framework and programming language specific details with RPN, programmers who are  unfamiliar with them may jump start and see results immediately.
-
-The uniqueness of RPN is proven in its ability to encapsulate anything from Python turtle graphics to Jitsi Meet TFJS. The mechanisms behind this are some of the most fundamental principles in programming and mathematics. 
-
-- What do these mean for mortal programmers practically vs. LISPers and computer scientists theoretically?
-
-This is perhaps one of the rare few topics in computer programming that concern the whole spectrum of practical programmers to theoretical computer sientists.
-
-
-- AR conferencing app needs developers and users to move avatars. Use RPN, works for web, iOS and Android platforms.
-
-:: - Use - for new section, idea. 
-Easier to read. Easy to turn into numbered list or section. 
-
-Sample code: place avatar at 30 deg around table ...
-
-Use ChatMessage text input to create new UI elements, debugging facilities, build Embedded IDE etc.
-
-
-
-:: convert - bulleted headings to # headings when finished
 
 4. Phoshell projects as large scale software engineering projects
   - How many people? How long will it take to start contributing to Jitsi-Meet or similar projects?
