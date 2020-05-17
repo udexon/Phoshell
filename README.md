@@ -90,6 +90,18 @@ Explain RPML on its own. Generalize from Laravel Blade PHP to other Programming 
 Easier to read. Easy to turn into numbered list or section. 
 
 
+- Sections
+1. TELK
+2. Phoshell
+3. Blindspots
+- 3.3 What are the problems we are trying to solve? Consequences
+4. Simplifying React Redux Augmented Reality Programming (Jitsi Meet)
+7. Why R3ML?
+
+- TELL / Bllindspots
+- 3.3 Consequences / 4 Simplifing
+- 7: 3 problems have been copied to 3.3
+
 ## 2. Theoretical Foundations of Phoshell
 
 
@@ -225,6 +237,7 @@ Subconcious conditioning, like the little elephant in the circus. Trained not to
 
 
 
+### 3.3 What are the problems we are trying to solve?
 
 #### Consequences
 To TLDR the long stories:
@@ -232,7 +245,7 @@ To TLDR the long stories:
 - Is it possible to unify all programming languages with a universal script?
 - Is it possible to create a CLI shell that can program GUI interactively?
 
-### 3.3 What are the problems we are trying to solve?
+
 
 1. The good old learning curve to pick up a new framework / programming language (JavaScript React Redux).
 
