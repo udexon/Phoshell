@@ -47,10 +47,50 @@ Use ChatMessage text input to create new UI elements, debugging facilities, buil
 
 
 
+- 1.3 TELK
+
+How long does it take for you to start modifying an app whose source code is available on GitHub or equivalent open source websites?
+
+Need to compile, test run, find documentation and location and code to start modifying.
+
+- 1.4 Solution to TELK
+
+What if we can do it as and when app is run?
+
+Why, who need this?
+
+Need to write in such a way that readers who know nothing about Phoshell can understand. 
+
+Nearest experience is Python shell? 
+
+Use Python turtle graphics with and without Phoshell as example, to illustrate interactive input output with graphics. 
+
+New title: the Last Mile in Computer Programming
+
+Use this, can be understood by all:
+- What if modifying any app can be done interactively via a textbook or equivalent element in the app itself?
+
+Compare to nodejs ecosystem, third party contributing to building libraries.
+
+Phoshell does not compete with existing Programming Languages and packaging frameworks, but compliments them in the "last mile" (explain telephone line analogy). 
+
+Highlight what nodejs npm have not achieved, what Phos UPS can do:
+- variable level of encapsulation, find examples not possible using JavaScript?  - What practical consequences does this have?
+
+Phoshell Universal Packaging System -- Phups: the Last Mile in Computer Programming
+
+Phos Package Manager PhosPM. Easier to remember like NPM. 
+
+- 1.5
+Explain RPML on its own. Generalize from Laravel Blade PHP to other Programming Languages. 
+
+
+
 :: - Use - for new section, idea. 
 Easier to read. Easy to turn into numbered list or section. 
 
-2.
+
+## 2. Theoretical Foundations of Phoshell
 
 A stack machine shell maps function tokens in the input, expressed in reverse Polish notation, to native functions of the host programming language. RPN is used to call functions in all the scenarios listed above. As such, ....
 
@@ -305,42 +345,6 @@ Shell + GUI = IDE
 
 Phoshell: Overcoming Baby Elephant Syndrome amongst Programmers with a Forth inspired Stack Machine Shell
 
-
-13.
-How long does it take for you to start modifying an app whose source code is available on GitHub or equivalent open source websites?
-
-Need to compile, test run, find documentation and location and code to start modifying.
-
-14.
-What if we can do it as and when app is run?
-
-Why, who need this?
-
-Need to write in such a way that readers who know nothing about Phoshell can understand. 
-
-Nearest experience is Python shell? 
-
-Use Python turtle graphics with and without Phoshell as example, to illustrate interactive input output with graphics. 
-
-New title: the Last Mile in Computer Programming
-
-Use this, can be understood by all:
-- What if modifying any app can be done interactively via a textbook or equivalent element in the app itself?
-
-Compare to nodejs ecosystem, third party contributing to building libraries.
-
-Phoshell does not compete with existing Programming Languages and packaging frameworks, but compliments them in the "last mile" (explain telephone line analogy). 
-
-Highlight what nodejs npm have not achieved, what Phos UPS can do:
-- variable level of encapsulation, find examples not possible using JavaScript?  - What practical consequences does this have?
-
-Phoshell Universal Packaging System -- Phups: the Last Mile in Computer Programming
-
-Phos Package Manager PhosPM. Easier to remember like NPM. 
-
-
-15.
-Explain RPML on its own. Generalize from Laravel Blade PHP to other Programming Languages. 
 
 
 
