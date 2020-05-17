@@ -50,6 +50,8 @@ Use ChatMessage text input to create new UI elements, debugging facilities, buil
 :: - Use - for new section, idea. 
 Easier to read. Easy to turn into numbered list or section. 
 
+2.
+
 A stack machine shell maps function tokens in the input, expressed in reverse Polish notation, to native functions of the host programming language. RPN is used to call functions in all the scenarios listed above. As such, ....
 
 Explain with examples of issues in TFJS and ChatMessage etc. Time spent.
@@ -67,9 +69,11 @@ This is perhaps one of the rare few topics in computer programming that concern 
 
 
 
-2. Deployable in anything from Python Turtle Graphics, Laravel front-end and back-end to Jitsi Meet Augmented Reality Conferencing, Phoshell is the ultimate programmer's _swiss army knife_.
+- Deployable in anything from Python Turtle Graphics, Laravel front-end and back-end to Jitsi Meet Augmented Reality Conferencing, Phoshell is the ultimate programmer's _swiss army knife_.
 
 Inspired by the Forth programming language, Phoshell &mdash; a _stack machine shell_ &mdash; extracts the essential features of Forth, simplifies them, and can be implemented in around 50 lines of JavaScript code or equivalent in _any known programming language_.
+
+
 
 ## 3. Blindspots of Programmers 
 
@@ -93,6 +97,7 @@ We do not know what we do not know. When someone tells us something we do not kn
 
 - The blindspots by programmers concerns GUI, CLI, stack machine shell, 
 - have great consequences, including ....
+
 
 - 3.1 (use bulleted list for numbering subsection)
 
