@@ -125,6 +125,11 @@ This blind spot amongst programmers is so serious that we may use the Baby Eleph
 Subconcious conditioning, like the little elephant in the circus. Trained not to escape, tied to a pole. When grown up, also not espcaping.
 
 
+- Another misconception: GUI and CLI are unrelated. However GUI is related to graph structure, and therefore Reverse Polish Notation.
+
+
+
+
 #### Consequences
 To TLDR the long stories:
 
@@ -192,6 +197,9 @@ Functionalities of code become more complex.
 3. Compare Smashlet to Redux, both in footprint and architecture. 
 
 Jitsi Meet is field tested, large scale, 100 mb in zip size ... one of the biggest project of any kind, Redux , besides libreoffice. Merge all apps with Phoshell? With all platform module: web, Android, iOS. Active developments, how many commits per week, consistently? 
+
+
+
 
 
 ## 5. History of Stack Machine Systems
@@ -297,9 +305,6 @@ Shell + GUI = IDE
 
 Phoshell: Overcoming Baby Elephant Syndrome amongst Programmers with a Forth inspired Stack Machine Shell
 
-Phoshell Universal Packaging System -- Phups: the Last Mile in Computer Programming
-
-12. Phos Package Manager PhosPM. Easier to remember like NPM. 
 
 13.
 How long does it take for you to start modifying an app whose source code is available on GitHub or equivalent open source websites?
@@ -329,22 +334,13 @@ Phoshell does not compete with existing Programming Languages and packaging fram
 Highlight what nodejs npm have not achieved, what Phos UPS can do:
 - variable level of encapsulation, find examples not possible using JavaScript?  - What practical consequences does this have?
 
+Phoshell Universal Packaging System -- Phups: the Last Mile in Computer Programming
+
+Phos Package Manager PhosPM. Easier to remember like NPM. 
+
+
+15.
 Explain RPML on its own. Generalize from Laravel Blade PHP to other Programming Languages. 
 
 
-We do not know what we do not know. When someone tells us something we do not know, half the time we reject it. 
 
-Simplifying React Redux Augmented Reality Programming (Jitsi Meet) using Forth derived Stack Machine Shell
-Functionalities of code become more complex. Can code be made simpler at the same time? 
-https://www.thestar.com.my/opinion/columnists/the-star-says/2017/08/13/free-our-young-from-the-baby-elephant-syndrome
-
-
-
-16.
-Another misconception: GUI and CLI are unrelated. However GUI is related to graph structure, and therefore Reverse Polish Notation.
-
-- Diversification of Programming Languages
-- Separation of CLI and GUI
-Compare Smashlet to Redux, both in footprint and architecture. 
-
-Jitsi Meet is field tested, large scale, 100 mb in zip size ... one of the biggest project of any kind, Redux , besides libreoffice. Merge all apps with Phoshell? With all platform module: web, Android, iOS. Active developments, how many commits per week, consistently?
