@@ -17,9 +17,17 @@ One of the biggest obstacles in working on a large scale open source repository 
 
 Consider the following plan:
 
-- Phoom link. We wish to create an Augmented Reality Conferencing App, based on Jitsi Meet Video Conferencing App.
+- Phoom links. We wish to create an Augmented Reality Conferencing App, based on Jitsi Meet Video Conferencing App.
   - We have successfully copied TFJS Mask function into JitsiMeetBlurEffect.js
   - We have used ChatMessage.js as entry point to Phoshell. 
+  
+:: Phoom links are already examples of solutions to TELK.
+
+https://github.com/udexon/Phoom/blob/master/Jitsi_Meet_BodyPix.md
+
+https://github.com/udexon/jitsi-phoshell/blob/master/README.md
+
+https://github.com/udexon/Phoom/blob/master/R3ML_Jitsi_Phoom.md
 
 :: describe A to Z of plan
 
