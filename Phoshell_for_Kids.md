@@ -22,9 +22,9 @@ Incidentally, a turtle graphics library has been ported to Python:
 
 https://opentechschool.github.io/python-beginners/en/simple_drawing.html
 
-We shall demonstrate that how a Phos Metashellet written in Python can extend the functionalities of turtle graphics into something more ambitious, while keeping the programming language to be no more complicated than Microsoft Excel.
+We shall demonstrate that how a Phoshell written in Python can extend the functionalities of turtle graphics into something more ambitious, while keeping the programming language to be no more complicated than Microsoft Excel.
 
-So this will be is one of the first few simple steps in our journey .... to ultimately unify programming and mathematics with Phos Metashellet.
+So this will be is one of the first few simple steps in our journey .... to ultimately unify programming and mathematics with Phoshell.
 
 https://github.com/udexon/Metashellet/blob/master/turtle1.py
 
@@ -38,4 +38,3 @@ SM("25 f 45 l 50 f 45 l 50 f")
 
 We intentionally leave the `SM()` (Stack Machine) function to be in a barebone state, as more complete stack machine (metashellet) module can be found in the examples above (PHP, JavaScript, Java).
 
-(Just a little note to declare that we shall continue to use `SM()` for stack machine instead of `MS()` for metashellet, as "MS" is considered an untouchable word for eternity perhaps by most free software programmers. ;-)
