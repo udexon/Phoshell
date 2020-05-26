@@ -26,3 +26,12 @@ The Phoscript words are evaluated with the following JavaScript function call at
 - `window.S[0].F( content[0] );`
 
 The first (bottomost) item of the stack `S[0]` is an object of the class `Phos`, defined in `phos.js`, which has an entry point function `F()` that takes a space delimited string containing Phoscript words and tokens.
+
+`S` was initialized in [`conference.js`](https://github.com/udexon/jitsi-phoshell/blob/master/conference.js) with the following code at the beginning of the file:
+
+```js
+import Phos from "./phos/phos.js";
+
+window.S = []
+window.S.push(new Phos())
+```
