@@ -4,3 +4,5 @@ Integrated Development Environment is perhaps the second most frequently used to
 
 - What if we combine the best features of IDE and shell together?
 
+<img src="https://github.com/udexon/Phoshell/blob/master/jitsi_phoshell/chatconversation.png" width=600>
+
