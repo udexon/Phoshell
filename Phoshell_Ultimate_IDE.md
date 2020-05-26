@@ -22,8 +22,9 @@ The Phoscript words are specified in [`phos.js`](https://github.com/udexon/jitsi
 <img src="https://github.com/udexon/Phoshell/blob/master/jitsi_phoshell/Phoscript_words.png" width=600>
 
 The Phoscript words are evaluated with the following JavaScript function call at line 39 of `ChatMessage.js`:
-
-- `window.S[0].F( content[0] );`
+```js
+`window.S[0].F( content[0] );`
+```
 
 The first (bottomost) item of the stack `S[0]` is an object of the class `Phos`, defined in `phos.js`, which has an entry point function `F()` that takes a space delimited string containing Phoscript words and tokens.
 
