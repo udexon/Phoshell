@@ -1,4 +1,4 @@
-# Phoshell: The Ultimate Integrated Development Environment
+## Phoshell: The Ultimate Integrated Development Environment Embedded within a React Redux App
 
 Integrated Development Environment is perhaps the second most frequently used tool by programmers, after the ubiquitous shell.
 
