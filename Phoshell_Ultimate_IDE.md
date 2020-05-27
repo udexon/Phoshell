@@ -10,6 +10,7 @@ The screenshot above shows the `id="chatconversation"` panel in Jitsi Meet web c
 
 We have modified [`ChatMessage.js`](https://github.com/udexon/jitsi-phoshell/blob/master/react/features/chat/components/web/ChatMessage.js) so that Phoscript commands (a stack machine / Reverse Polish Notation script language derived from the Forth programming languge) can be entered in chat box and the `id="chatconversation"` panel can be used as graphical output display for debugging purpose. Our goal is: 
 - to modify Jitsi Meet to make it an Augmented Reality conferencing app where human figures from video streams will be converted into avatars and placed in 3D room, simulating meetings in 3D environment.
+- https://github.com/udexon/Phoom/blob/master/Jitsi_Meet_BodyPix.md
 
 The Phoscript words ("functions" in Forth terminology) that were entered are:
 - `yellow:` Change the colour of the text of the last `usermessage` (ClassName) to yellow.
@@ -36,3 +37,6 @@ import Phos from "./phos/phos.js";
 window.S = []
 window.S.push(new Phos())
 ```
+
+
+### to be continued
