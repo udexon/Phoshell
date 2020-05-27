@@ -39,4 +39,4 @@ window.S.push(new Phos())
 ```
 
 
-### to be continued
+### _... to be continued_
