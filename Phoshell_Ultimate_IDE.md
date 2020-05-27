@@ -1,4 +1,5 @@
 ## Phoshell IDE: (THE Ultimate) _Embedded Integrated Development Environment_ (Embedded) within a React Redux (or _ANY framework_) App
+- PhosIDE Part I: Introduction
 
 Integrated Development Environment is perhaps the second most frequently used tool by programmers, after the ubiquitous shell.
 
