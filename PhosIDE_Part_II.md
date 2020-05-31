@@ -49,4 +49,37 @@ S.push(x)
 S[0].F("mrsz:") 
 ```
 
-4. lines 70 to 96
+4. As shown in figure 7, lines 70 to 96 have been added to [`ChatMessage.js`](https://github.com/udexon/jitsi-phoshell/blob/master/react/features/chat/components/web/ChatMessage.js) to process the Phoscript command above.
+
+- Figure 7
+<img src="https://github.com/udexon/Phoshell/blob/master/jitsi_phoshell/chat_prefix_colon.png" width=600>
+
+
+`:b` (`b` for "begin") is a flag for `ChatMessage.js` to treat the subsequent string as Phoscript command.
+
+`5` is an arbitrary number that is stored as `S[1]` of the global stack, as a sort of line number for executing commands, that can be used as mutex in asynchronous environment such as JavaScript. Tentatively, we employ a simple criterion here that is the current line number must be greater than the existing number stored in `S[1]` for the current command to be executed.
+
+The following is an array of variables (no space is allowed for this simple version of variable extraction) to be extracted from `JitsiStreamBlurEffect.js`:
+
+```js
+[flipHorizontal,maskBlurAmount,opacity,mask,this._inputVideoElement]
+```
+
+`:v` is the colon prefix word (word as in Forth terminology for function name) to execute `eval(eval(expr))` on the previous token.
+
+5. The following commands are executed in the browser console:
+```js
+var x = document.createElement("CANVAS");
+var c = document.getElementById("chatconversation");
+c.appendChild(x)               
+S.push(x)
+
+S[0].F("mrsz:") 
+```
+A new canvas element `x` is created and appended to `id="chatconversation"`.
+
+`S[0].F()` which is the entry point to Phoscript is called to execute `mrsz:` which is mapped to  
+
+
+
+
