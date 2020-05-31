@@ -15,3 +15,20 @@ Ultimately, our goal is to employ `three.js` video texture to make 2.5D and 3D a
 - Figure 3
 <img src="https://github.com/udexon/Phoshell/blob/master/jitsi_phoshell/threejs_video_texture.png" width=600>
 
+
+## PhosIDE in Action
+
+1. Move the cursor to the bottom of Jitsi View window so that the toolbox buttons appear. Click on the chat panel button to activate the chat panel, as shown in figure 4. Click on the "More actions" button at the right to get the submenu as shown in figure 5, then click "blur my background". This will activate the TensorFlow BodyPix algorithm in [`JitsiStreamBlurEffect.js`](https://github.com/udexon/jitsi-phoshell/blob/master/react/features/stream-effects/blur/JitsiStreamBlurEffect.js).
+
+- Figure 4
+<img src="https://github.com/udexon/Phoshell/blob/master/jitsi_phoshell/chat_arrows.png" width=600>
+
+
+- Figure 5
+<img src="https://github.com/udexon/Phoshell/blob/master/jitsi_phoshell/blur_background.png" width=600>
+
+In figure 6, from lines 140 to 150, we have added code to copy variables from `JitsiStreamBlurEffect.js` to the global Phos stack `window.S`, so that we can paste the TensorFlow BodyPix mask image to `id="chatconversation` by executing Phoscript commands in `id="chatconversation` as well as the browser console, as show in figure 2 above.
+
+- Figure 6
+<img src="https://github.com/udexon/Phoshell/blob/master/jitsi_phoshell/colon_prefix_word.png" width=600>
+
