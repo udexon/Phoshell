@@ -27,8 +27,26 @@ Ultimately, our goal is to employ `three.js` video texture to make 2.5D and 3D a
 - Figure 5
 <img src="https://github.com/udexon/Phoshell/blob/master/jitsi_phoshell/blur_background.png" width=600>
 
-In figure 6, from lines 140 to 150, we have added code to copy variables from `JitsiStreamBlurEffect.js` to the global Phos stack `window.S`, so that we can paste the TensorFlow BodyPix mask image to `id="chatconversation` by executing Phoscript commands in `id="chatconversation` as well as the browser console, as show in figure 2 above.
+2. In figure 6, from lines 140 to 150, we have added code to copy variables from `JitsiStreamBlurEffect.js` to the global Phos stack `window.S`, so that we can paste the TensorFlow BodyPix mask image to `id="chatconversation` by executing Phoscript commands in `id="chatconversation` as well as the browser console, as show in figure 2 above.
 
 - Figure 6
 <img src="https://github.com/udexon/Phoshell/blob/master/jitsi_phoshell/colon_prefix_word.png" width=600>
 
+3. The commands entered were:
+
+- In chat panel:            
+```
+:b 5 [flipHorizontal,maskBlurAmount,opacity,mask,this._inputVideoElement] :v
+```
+
+- In console: 
+```js
+var x = document.createElement("CANVAS");
+var c = document.getElementById("chatconversation");
+c.appendChild(x)               
+S.push(x)
+
+S[0].F("mrsz:") 
+```
+
+4. lines 70 to 96
