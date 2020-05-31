@@ -78,7 +78,7 @@ S[0].F("mrsz:")
 ```
 A new canvas element `x` is created and appended to `id="chatconversation"`.
 
-`S[0].F()` which is the entry point to Phoscript is called to execute `mrsz:` which is mapped to `drawMaskResize()` from [TFJS BodyPix](https://github.com/udexon/tfjs-models/blob/master/body-pix/src/output_rendering_util.ts). The original repository only has a `drawMask()` function that did not resize the input image when calling `drawImage()`. We have made the modifications (lines 432 and 420) as show in figure 8.
+`S[0].F()` which is the entry point to Phoscript is called to execute `mrsz:` which is mapped to `drawMaskResize()` from [TFJS BodyPix](https://github.com/udexon/tfjs-models/blob/master/body-pix/src/output_rendering_util.ts). The original repository only has a `drawMask()` function that did not resize the input image when calling `drawImage()`. We have made the modifications (lines 432 and 420) as shown in figure 8.
 
 - Figure 8
 <img src="https://github.com/udexon/Phoshell/blob/master/jitsi_phoshell/tfjs_drawMaskResize.png" width=600>
