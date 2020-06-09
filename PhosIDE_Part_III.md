@@ -13,9 +13,7 @@ At 00:00, on the right of the screen is a white silhouette covering the head and
 
 <img src="https://github.com/udexon/Phoshell/blob/master/PhosIDE_part_III/sway_00.png" width=600>
 
-In the original `@jitsi/jitsi-meet`, `_renderMask()` calls `bodyPix.drawBokehEffect()` (line 80).
-
-https://github.com/jitsi/jitsi-meet/blob/master/react/features/stream-effects/blur/JitsiStreamBlurEffect.js
+In the original `@jitsi/jitsi-meet`, `_renderMask()` in  [`JitsiStreamBlurEffect.js`](https://github.com/jitsi/jitsi-meet/blob/master/react/features/stream-effects/blur/JitsiStreamBlurEffect.js) calls `bodyPix.drawBokehEffect()` (line 80).
 
 We have replaced it with `bodyPix.drawMask()` as shown below:
 
