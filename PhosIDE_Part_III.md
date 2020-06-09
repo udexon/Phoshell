@@ -77,3 +77,7 @@ Here is a brief explanation of the commands entered:
   - `camy:` set `camera.position.y` to the value from the top element of the stack.
   - `scene:` initiate `three.js` rendering.
   
+
+3. From 00:12s onwards, subject X sways from left to right, and this is reflected by the white silhouette in the chat panel (which has been flipped horizontally, due to a parameter setting in TFJS BodyPix), and the camera moves from `y=15*0.1` down to `y=0`, giving rise to the illusion of an upward rotating cube.
+
+At 00:20s, TWO white silhouettes on TWO faces of the cube can be seen.
