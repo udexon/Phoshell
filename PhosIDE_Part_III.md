@@ -6,7 +6,7 @@ https://raw.githubusercontent.com/udexon/Phoshell/master/PhosIDE_part_III/blur_s
 
 This is a critical step towards implementing an Augmented Reality Conferencing app, Phoom, a significant breakthrough from the current mainstream video conferencing apps such as Zoom and Jitsi Meet.
 
-In addition, we introduce Phoscript, a highly flexible script derived from the Forth programming language, which we believe can greatly simplify the complex `three.js` JavaScript syntax, and help mortal programmers in mastering various tricks required involving various support tools:
+In addition, we introduce Phoscript, a highly flexible script derived from the Forth programming language, which we believe can greatly simplify the complex `three.js` JavaScript syntax, and help _mortal_ programmers in mastering various tricks required involving various support tools:
 - TFJS BodyPix (TypeScript)
 - `three.js` WebGL (JavaScript)
 - Jitsi Meet (React Redux)
@@ -26,7 +26,7 @@ We have replaced it with `bodyPix.drawMask()` as shown below:
 
 We have forked `@jitsi/jitsi-meet` as `@udexon/jitsi-phoshell`. Due to continuous changes to the test code, we have not updated the latest code in our reporsitory. However, we believe expert developers will be able to reproduce the modifications by following instructions in this tutorial. Less experienced developers may also contact us for more detailed instructions and latest sample code. 
 
-https://github.com/udexon/jitsi-phoshell
+- https://github.com/udexon/jitsi-phoshell
 
 b.  The head and shoulders white silhouette on the right side of figure 1 is broader compared to the smaller head and shoulders white silhouette in the chat panel area (`id="chatconversation"`), as the latter has been distorted (squeezed) to fit to one of six sides of a cube in `three.js`.
 
