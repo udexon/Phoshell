@@ -1,4 +1,4 @@
-# PhosIDE Part III: ....
+# PhosIDE Part III: Extracting Jitsi Meet BodyPix Mask as Three.js CanvasTexture on Rotating Cube in Chat Panel
 
 1. In the following video, we demonstrated how Jitsi Meet BodyPix mask image can be displayed in the chat panel (`id="chatconversation"`) on a rotating cube using `three.js CanvasTexture`: 
 
@@ -77,5 +77,3 @@ Here is a brief explanation of the commands entered:
   - `camy:` set `camera.position.y` to the value from the top element of the stack.
   - `scene:` initiate `three.js` rendering.
   
-  
- / Phoshell / PhosIDE
