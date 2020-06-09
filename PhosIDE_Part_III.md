@@ -6,7 +6,7 @@ https://raw.githubusercontent.com/udexon/Phoshell/master/PhosIDE_part_III/blur_s
 
 This is a critical step towards implementing an Augmented Reality Conferencing app, Phoom, a significant breakthrough from the current mainstream video conferencing apps such as Zoom and Jitsi Meet.
 
-In addition, we introduce Phoscript, a highly flexible script derived from the Forth programming language, which we believe can greatly simplify the complex `three.js` JavaScript syntax, and help the average programmers in mastering various tricks required involving these various support tools:
+In addition, we introduce Phoscript, a highly flexible script derived from the Forth programming language, which we believe can greatly simplify the complex `three.js` JavaScript syntax, and help mortal programmers in mastering various tricks required involving various support tools:
 - TFJS BodyPix (TypeScript)
 - `three.js` WebGL (JavaScript)
 - Jitsi Meet (React Redux)
@@ -28,7 +28,7 @@ We have forked `@jitsi/jitsi-meet` as `@udexon/jitsi-phoshell`. Due to continuou
 
 https://github.com/udexon/jitsi-phoshell
 
-- b.  The head and shoulders white silhouette on the right side of figure 1 is broader compared to the smaller head and shoulders white silhouette in the chat panel area (`id="chatconversation"`), as the latter has been distorted (squeezed) to fit to one of six sides of a cube in `three.js`.
+b.  The head and shoulders white silhouette on the right side of figure 1 is broader compared to the smaller head and shoulders white silhouette in the chat panel area (`id="chatconversation"`), as the latter has been distorted (squeezed) to fit to one of six sides of a cube in `three.js`.
 
 The white silhouette in the chat panel stays static from 00:00s to 00:11s until the following command is entered in the browser console:
 
@@ -62,7 +62,7 @@ Here is a brief explanation of the commands entered:
   - `canvas:` creates an HTML canvas element and append it to `id="chatconversation`, which is pushed on to the stack to be operated by subsequent commands.
   - `canvas blur set:` set the `canvas` key of the `blur` object to the HTML canvas element stored on the stack. This will be accessible via `TP.canvas` in `JitsiStreamBlurEffect.js`
 
-- S.push('cvst: cube_cvst:    0.1 float: N blur get: mul: camy: scene:');
+- `S.push('cvst: cube_cvst:    0.1 float: N blur get: mul: camy: scene:');`
   - push the whole space delimited string as one variable on to the stack.
   - `cmd blur set:` set the `cmd` key of the `blur` object to the string at the top of the stack. This will be accessible via `TP.cmd` in `JitsiStreamBlurEffect.js`
   
