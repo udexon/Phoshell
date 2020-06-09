@@ -9,4 +9,8 @@ In addition, we introduce Phoscript, a highly flexible script derived from the F
 - `three.js` WebGL (JavaScript)
 - Jitsi Meet (React Redux)
 
+At 00:00, 
+
+<img src="https://github.com/udexon/Phoshell/blob/master/PhosIDE_part_III/sway_00.png" width=600>
+
  / Phoshell / PhosIDE
