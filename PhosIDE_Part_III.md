@@ -80,4 +80,12 @@ Here is a brief explanation of the commands entered:
 
 3. From 00:12s onwards, subject X sways horizontally, and this is reflected by the white silhouette in the chat panel (which has been flipped horizontally, due to a parameter setting in TFJS BodyPix), and the camera moves from `y=15*0.1` down to `y=0`, giving rise to the illusion of an upward rotating cube.
 
+- Figure 4
+
+<img src="https://github.com/udexon/Phoshell/blob/master/PhosIDE_part_III/sway_12.png" width=600>
+
 At 00:20s, TWO white silhouettes on TWO faces of the cube can be seen.
+
+- Figure 5
+
+<img src="https://github.com/udexon/Phoshell/blob/master/PhosIDE_part_III/sway_25.png" width=600>
