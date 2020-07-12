@@ -28,7 +28,23 @@ We have forked `@jitsi/jitsi-meet` as `@udexon/jitsi-phoshell`. Due to continuou
 
 - https://github.com/udexon/jitsi-phoshell
 
-b.  The head and shoulders white silhouette on the right side of figure 1 is broader compared to the smaller head and shoulders white silhouette in the chat panel area (`id="chatconversation"`), as the latter has been distorted (squeezed) to fit to one of six sides of a cube in `three.js`.
+The head and shoulders white silhouette on the right side of figure 1 is broader compared to the smaller head and shoulders white silhouette in the chat panel area (`id="chatconversation"`), as the latter has been distorted (squeezed) to fit to one of six sides of a cube in `three.js`.
+
+
+b. Steps 
+
+- Turn on "Background Blur" mode.
+<img src="https://github.com/udexon/Phoshell/blob/master/PhosIDE_part_III/turn_on_background_blur.png" width=600>
+
+
+`TP.cmd` is set by the following commands in the browser console:
+
+```js
+S[0].F("blur init:  canvas: canvas blur set:")
+S.push('cvst: cube_cvst:    0.1 float: N blur get: mul: camy: scene:'); 
+S[0].F("cmd blur set:")
+```
+
 
 The white silhouette in the chat panel stays static from 00:00s to 00:11s until the following command is entered in the browser console:
 
@@ -43,13 +59,8 @@ This command sets the value of `TP.N` to 15 as shown in the following code, whic
 
 It will execute the command stored in `TP.cmd` every time `_renderMask()` is called by `_onMaskFrameTimer()`. `TP.N` will be decremented by 1 each time and stops when `TP.N==0`.
 
-`TP.cmd` is set by the following commands in the browser console:
 
-```js
-S[0].F("blur init:  canvas: canvas blur set:")
-S.push('cvst: cube_cvst:    0.1 float: N blur get: mul: camy: scene:'); 
-S[0].F("cmd blur set:")
-```
+
 
 A brief introduction of `Phos()` class, `window.S` and `S[0].F()` was given in [Part I](https://github.com/udexon/Phoshell/blob/master/Phoshell_Ultimate_IDE.md) of this series.
 
