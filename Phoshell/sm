@@ -1,0 +1,223 @@
+#!/bin/bash 
+
+function quit {
+    exit
+}
+  
+function e {
+    echo $1 
+}  
+
+function f_c {
+    # let arr = $args
+    a=("${args[@]}")
+    b=("${a[@]}")
+    echo ${#b[@]} 
+    S=("${args[@]}")
+}
+
+function f_p1
+{
+    S+=($1)
+}
+
+function f_s
+{
+    local i
+    # echo ${#S[@]}
+    n=${#S[@]}
+    echo -n "$n: "
+    # quit
+    for ((i=0; i < n; i++))   # $ not needed in arithmetic expression?
+    {
+        # echo "argument $((i+1)): ${S[$i]}"
+        echo -n "${S[$i]} "
+    }
+    echo 
+}
+
+function f_args
+{
+    args=("$@")
+    # S=("$@")
+    for ((i=0; i < $#; i++))
+    {
+        echo "argument $((i+1)): ${args[$i]}"
+    }
+}
+
+function f_p
+{
+    for ((i=0; i < $#; i++))
+    {
+        # echo "argument $((i+1)): ${args[$i]}"
+        S+=(${args[$i]})
+    }
+}
+
+function f_png2mp4 
+{
+    i=`f_end`; pop;
+    a="ffmpeg -loop 1 -i $i -c:v libx264 -vf "
+    b='"pad=ceil(iw/2)*2:ceil(ih/2)*2"'
+    c=" -t 34 -pix_fmt yuv420p $2"
+
+    echo $a$b$c
+}
+
+function f_p2m # png2mp4
+{
+    local i # i is global var for command line arguments!!
+
+    o=`f_end`; pop;
+    i=`f_end`; pop;
+    t=`f_end`; pop;
+
+    a="ffmpeg -loop 1 -i $i -c:v libx264 -vf "
+    b='"pad=ceil(iw/2)*2:ceil(ih/2)*2"'
+    c=" -t $t -pix_fmt yuv420p $o"
+
+    echo $a$b$c
+    eval $a$b$c
+}
+
+
+function end_test
+{
+    echo ${S[@]}
+    echo ${S[${#S[@]}-1]}
+    unset S[-1]
+    echo ${S[@]}
+    echo ${S[${#S[@]}-1]}
+}
+
+function pop
+{
+    unset 'S[${#S[@]}-1]'
+}
+
+function end
+{
+    echo "${S[${#S[@]}-1]}" # enclose in double quote to prevent eval ?
+}
+
+function f_pop
+{
+    unset 'S[${#S[@]}-1]'
+}
+
+function f_end
+{
+    echo "${S[${#S[@]}-1]}"
+}
+
+function f_swap
+{
+  a=`f_end`; f_pop;
+  # echo "Swap a $a"
+  b=`f_end`; f_pop;
+  # echo "Swap b $b"
+  S+=($a)
+  S+=($b)
+}
+
+function f_dup
+{
+  S+=(`f_end`)
+}
+
+function f_duration
+{
+    a="`f_end`"; f_pop;
+    echo $a
+    b="ffprobe -i $a -show_entries format=duration -v quiet -of csv="
+    c='"p=0"'
+    echo $b$c
+    # echo `eval $b$c`
+    S+=(`eval $b$c`)
+}
+
+function f_ls
+{
+    echo ls
+    ls
+}
+
+function f_mav
+{
+    o="`f_end`"; f_pop;
+    i1="`f_end`"; f_pop;
+    i2="`f_end`"; f_pop;
+    
+    ffmpeg -i $i1 -i $i2 -c:v copy -c:a aac $o
+}
+
+function f_renc # reencode
+{
+    o="`f_end`"; f_pop;
+    i1="`f_end`"; f_pop;
+    ffmpeg -i $i1 -c:a aac -vcodec libx264 -s 1920x1080 -r 60 -strict experimental $o
+}
+
+function file:
+{
+    n="`f_end`"; f_pop;
+    echo file \'$n\'
+}
+
+function add:
+{
+    num1="`f_end`"; f_pop;
+    num2="`f_end`"; f_pop;
+
+    num=$((num1 + num2))
+    # echo $num
+    
+    S+=($num)
+}
+
+# isFunction() { [[ "$(declare -Ff "$1")" ]]; }
+isFunction() { declare -Ff "$1" >/dev/null; }
+
+
+alias dur:=f_duration
+alias l:=f_ls
+alias dup:=f_dup
+shopt -s expand_aliases
+
+args=("$@")
+S=()
+
+# TODO: change i to longer var name to avoid global var conflict
+for ((i=0; i < $#; i++))
+{
+    # echo "argument $((i+1)): ${args[$i]}"
+    # isFunction ${args[$i]} && S+=(${args[$i]}) || eval ${args[$i]}
+    # fn_exists test_function
+
+    isFunction ${args[$i]}
+    if [ $? -eq 0 ]; then
+        # echo 'Function exists!'
+        # E=eval "${args[$i]}"
+        eval "${args[$i]}"
+        # `eval ${args[$i]}`
+        # echo $E
+        # $($E)
+    elif alias ${args[$i]} 2>/dev/null >/dev/null; then 
+        echo ${args[$i]} is alias
+        eval "${args[$i]}"
+    elif [ "${args[$i]}" = "+" ]; then
+        # echo "is plus"
+        add:
+    else
+        # echo 'Function does not exist...'
+        S+=("${args[$i]}")    
+    fi
+
+    # if alias ${args[$i]} 2>/dev/null; then 
+    #  echo do_something is alias
+    # else 
+    #  echo do_another_thing not alias
+    # fi
+
+}
