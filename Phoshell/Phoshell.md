@@ -32,3 +32,19 @@ It is indispensable, yet impossible to remember.
 - b. Record the audio using mobile phone or other deivces.
 - c. Merge the audio and video stream into one mp4 file.
 - d. Reencode the mp4 to the resolution required to eliminate inconsistencies create in the previous steps.
+
+- i. In practice, step (b) is done first, as we need to get the duration of the audio to create a silent mp4 of the same length in (a).
+  - The code to accomplished this is at line 130 `function f_duration` in `sm`.
+  
+```
+function f_duration
+{
+    a="`f_end`"; f_pop;
+    echo $a
+    b="ffprobe -i $a -show_entries format=duration -v quiet -of csv="
+    c='"p=0"'
+    echo $b$c
+    # echo `eval $b$c`
+    S+=(`eval $b$c`)
+}
+```
