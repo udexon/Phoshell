@@ -9,3 +9,5 @@ It is indispensable, yet impossible to remember.
 3. Phoshell &mdash; a very thin Bash wrapper based on Phoscript, a simplified metaprogramming script derived from the Forth programming language, based on Reverse Polish Notation.
 
 ## A. Examples
+
+<img src="https://github.com/udexon/Phoshell/blob/master/Phoshell/img/add_55_22.png" width=200>
