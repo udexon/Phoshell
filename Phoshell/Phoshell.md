@@ -33,8 +33,26 @@ It is indispensable, yet impossible to remember.
 - c. Merge the audio and video stream into one mp4 file.
 - d. Reencode the mp4 to the resolution required to eliminate inconsistencies create in the previous steps.
 
-- i. In practice, step (b) is done first, as we need to get the duration of the audio to create a silent mp4 of the same length in (a).
-  - The code to accomplished this is at line 130 `function f_duration` in `sm`.
+- i. 
+
+```
+> ./sm t.m4a f_duration dup: GEISHA/img/GEISHA.png o_1.mp4 f_p2m
+```
+
+`t.m4a`: input audio file
+
+`f_duration`: function to determine duration of input audio
+
+`dup:` duplicate audio length and push on to stack
+
+`GEISHA/img/GEISHA.png`: input slide screenshot 
+
+`o_1.mp4`: output silent mp4
+
+`f_p2m`: convert input `png` to silent `mp4`
+
+In practice, step (b) is done first, as we need to get the duration of the audio to create a silent mp4 of the same length in (a).
+  - The code to accomplish this is at line 130 `function f_duration` in `sm`.
   
 ```
 function f_duration
