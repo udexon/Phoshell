@@ -48,6 +48,7 @@ function f_args
 
 function f_p
 {
+    local i
     for ((i=0; i < $#; i++))
     {
         # echo "argument $((i+1)): ${args[$i]}"
