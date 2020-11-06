@@ -8,6 +8,15 @@ It is indispensable, yet impossible to remember.
 
 3. Phoshell &mdash; a very thin Bash wrapper based on Phoscript, a simplified metaprogramming script derived from the Forth programming language, based on Reverse Polish Notation.
 
+The core of Phoshell script `sm` (abbreviation for "stack machine", chosen as we want a two letter short name and for being generic), and Phoscript implementations in other programming languages, consists of the following steps:
+
+- i. split a space delimited string into tokens or "words" in Forth or Phoscript terminology.
+- ii. loop through the list of words (tokens):
+  - execute (evaluate) the current word if it is a function word
+  - push the current word on to the stack if it is a non-function word
+
+In fact, the above is the generic design of any stack machine and can be found in the interpreter in any programming languages.
+
 ```bash
 args=("$@")
 S=()
