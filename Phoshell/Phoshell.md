@@ -111,7 +111,9 @@ Phoshell simplifies both `bash` and `ffmpeg` commands and parameters via the fol
 
 1. hiding details
 
-For the step to obtain the duratoin of the audio file, the original command is:
+2. renaming or alias of functions with something easier to remember. This can be done arbitrarily according to the choice of programmers as well as using native langauge (national language) with Unicode. e.g. more than one aliases can point to the same function.
+
+To illustrate, for the step to obtain the duratoin of the audio file, the original command is:
 ```
   # get length of audio file
   ffprobe -i $a -show_entries format=duration -v quiet -of csv="p=0"   
@@ -140,8 +142,6 @@ Further, `f_duration` can be aliased as `dur:`:
 ```
 alias dur:=f_duration
 ```
-
-2. renaming or alias of functions with something easier to remember. This can be done arbitrarily according to the choice of programmers as well as using native langauge (national language) with Unicode. e.g. more than one aliases can point to the same function.
 
 - a. Get audio duration and make mp4 from png:
 ```
