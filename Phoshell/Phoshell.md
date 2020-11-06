@@ -70,12 +70,12 @@ for ((i=0; i < $#; i++))
 <hr>
 
 2. The simplest task in making a presentation video consists of the following:
+  - a. Create a slide. Make a screenshot. Convert the screenshot into a video clip with voice over.
+  - b. Record the audio using mobile phone or other deivces.
+  - c. Merge the audio and video stream into one mp4 file.
+  - d. Reencode the mp4 to the resolution required to eliminate inconsistencies create in the previous steps.
 
-- a. Create a slide. Make a screenshot. Convert the screenshot into a video clip with voice over.
-- b. Record the audio using mobile phone or other deivces.
-- c. Merge the audio and video stream into one mp4 file.
-- d. Reencode the mp4 to the resolution required to eliminate inconsistencies create in the previous steps.
-
+- Sanwich API
 - i. 
 
 ```
