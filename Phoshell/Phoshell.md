@@ -179,6 +179,8 @@ String `a` is then inserted into string `b` along with the command `ffprobe` and
 
 `f_p2m`: converts input `png` to silent `mp4`
 
+We adopt 2 naming conventions for Phoscript functions: `f_*` prefix or `:` suffix, e.g. `dur:`. This is to improve readability, i.e. to distinguish function words (tokens) from non-function words. These conventions do not exist in traditional Forth.
+
 In practice, step (b) is done first, as we need to get the duration of the audio to create a silent mp4 of the same length in (a).
   - The code to accomplish this is at line 130 `function f_duration` in `sm`.
   
