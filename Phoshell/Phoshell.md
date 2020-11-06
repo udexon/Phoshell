@@ -105,6 +105,12 @@ As you can see the complexities of the parameters involved would turn off the mo
 > ./sm o_1x.mp4 o_1r.mp4 f_renc
 ```
 
+### Explanations
+- a. Get audio duration and make mp4 from png:
+```
+> ./sm t.m4a f_duration dup: GEISHA/img/GEISHA.png o_1.mp4 f_p2m
+```
+
 `t.m4a`: input audio file
 
 `f_duration`: function to determine duration of input audio
