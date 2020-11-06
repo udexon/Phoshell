@@ -106,6 +106,13 @@ As you can see the complexities of the parameters involved would turn off the mo
 ```
 
 ### Explanations
+
+Phoshell simplifies both `bash` and `ffmpeg` commands and parameters via the following mechanism:
+
+1. hiding details
+
+2. renaming or alias of functions with something easier to remember. This can be done arbitrarily according to the choice of programmers as well as using native langauge (national language) with Unicode. e.g. more than one aliases can point to the same function.
+
 - a. Get audio duration and make mp4 from png:
 ```
 > ./sm t.m4a f_duration dup: GEISHA/img/GEISHA.png o_1.mp4 f_p2m
