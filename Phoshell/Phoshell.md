@@ -149,20 +149,8 @@ alias dur:=f_duration
 ```
 
 `t.m4a`: input audio file
-
 `f_duration`: function to determine duration of input audio
 
-`dup:` duplicate audio length and push on to stack
-
-`GEISHA/img/GEISHA.png`: input slide screenshot 
-
-`o_1.mp4`: output silent mp4
-
-`f_p2m`: convert input `png` to silent `mp4`
-
-In practice, step (b) is done first, as we need to get the duration of the audio to create a silent mp4 of the same length in (a).
-  - The code to accomplish this is at line 130 `function f_duration` in `sm`.
-  
 ```
 function f_duration
 {
@@ -175,5 +163,23 @@ function f_duration
     S+=(`eval $b$c`)
 }
 ```
+`a="``f_end``"` reads the "top of stack" (TOS) item. `f_pop` pops TOS.
 
+String `a` is then inserted into string `b` along with the command `ffprobe` and its parameters.
+
+`eval $b$c` executes the string `$b$c`. 
+
+`S+=(...)` pushes the result (duration of audio file) to the stack `S`. 
+
+`dup:` duplicates audio length (now at TOS) and pushes it on to the stack.
+
+`GEISHA/img/GEISHA.png`: input file slide screenshot 
+
+`o_1.mp4`: output file silent mp4
+
+`f_p2m`: converts input `png` to silent `mp4`
+
+In practice, step (b) is done first, as we need to get the duration of the audio to create a silent mp4 of the same length in (a).
+  - The code to accomplish this is at line 130 `function f_duration` in `sm`.
+  
 - Sanwich API
