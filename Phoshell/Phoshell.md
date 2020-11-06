@@ -15,6 +15,9 @@ The core of Phoshell script `sm` (abbreviation for "stack machine", chosen as we
   - execute (evaluate) the current word if it is a function word
   - push the current word on to the stack if it is a non-function word
 
+The full source code of `sm` is given here:
+- https://github.com/udexon/Phoshell/blob/master/Phoshell/sm
+
 In fact, the above is the generic design of any stack machine and can be found in the interpreter in any programming languages.
 
 This mechanism is so simple that it is unfortunate that it has not been more widely publicized. It so therefore one of the aims of this project to promote it so that Phoscript, or any Reverse Polish Notation based programming language, can become a ___universal metaprogramming script___ to interface to any host programming language, thereby _solving the problem of diminishing returns due to growing complexities of programming langauges._
