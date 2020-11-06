@@ -8,6 +8,34 @@ It is indispensable, yet impossible to remember.
 
 3. Phoshell &mdash; a very thin Bash wrapper based on Phoscript, a simplified metaprogramming script derived from the Forth programming language, based on Reverse Polish Notation.
 
+```bash
+args=("$@")
+S=()
+
+# TODO: change i to longer var name to avoid global var conflict ??
+for ((i=0; i < $#; i++))
+{
+    isFunction ${args[$i]}
+    if [ $? -eq 0 ]; then
+        # echo 'Function exists!'
+        # E=eval "${args[$i]}"
+        eval "${args[$i]}"
+        # `eval ${args[$i]}`
+        # echo $E
+        # $($E)
+    elif alias ${args[$i]} 2>/dev/null >/dev/null; then 
+        echo ${args[$i]} is alias
+        eval "${args[$i]}"
+    elif [ "${args[$i]}" = "+" ]; then
+        # echo "is plus"
+        add:
+    else
+        # echo 'Function does not exist...'
+        S+=("${args[$i]}")    
+    fi
+}
+
+```
 ## A. Examples
 
 1. Addition and Stack
