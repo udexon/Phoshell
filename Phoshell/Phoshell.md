@@ -89,9 +89,10 @@ for ((i=0; i < $#; i++))
   ```
   ffmpeg -i $i1 -c:a aac -vcodec libx264 -s 1920x1080 -r 60 -strict experimental $o
   ```
-  
-- Sanwich API
-- i. 
+
+As you can see the complexities of the parameters involved would turn off the most seasoned programmers. With Phoshell, we have turned the above to something like the following:
+
+- i. Get audio duration and make mp4 from png:
 
 ```
 > ./sm t.m4a f_duration dup: GEISHA/img/GEISHA.png o_1.mp4 f_p2m
@@ -124,3 +125,5 @@ function f_duration
     S+=(`eval $b$c`)
 }
 ```
+
+- Sanwich API
