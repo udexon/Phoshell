@@ -72,11 +72,24 @@ for ((i=0; i < $#; i++))
 2. 
 
 - The simplest task in making a presentation video consists of the following:
-  - a. Create a slide. Make a screenshot. Convert the screenshot into a video clip with voice over.
+  - a. Create a slide. Make a screenshot. Convert the screenshot into a video clip with voice over. The `ffmpeg` commands to accomplish this are:
+  ```
+  # get length of audio file
+  ffprobe -i $a -show_entries format=duration -v quiet -of csv="p=0"   
+  
+  # create a silent mp4 from png
+  ffmpeg -loop 1 -i $i -c:v libx264 -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2 -t $t -pix_fmt yuv420p $o
+  ```
   - b. Record the audio using mobile phone or other deivces.
   - c. Merge the audio and video stream into one mp4 file.
+  ```
+  ffmpeg -i $i1 -i $i2 -c:v copy -c:a aac $o
+  ```
   - d. Reencode the mp4 to the resolution required to eliminate inconsistencies create in the previous steps.
-
+  ```
+  ffmpeg -i $i1 -c:a aac -vcodec libx264 -s 1920x1080 -r 60 -strict experimental $o
+  ```
+  
 - Sanwich API
 - i. 
 
