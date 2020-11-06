@@ -181,7 +181,19 @@ String `a` is then inserted into string `b` along with the command `ffprobe` and
 
 We adopt 2 naming conventions for Phoscript functions: `f_*` prefix or `:` suffix, e.g. `dur:`. This is to improve readability, i.e. to distinguish function words (tokens) from non-function words. These conventions do not exist in traditional Forth.
 
+Step (c) (merge audio and video) is performed by `f_mav` &mdash; we have chosen a function name that is easy to remember
+
+Step (d) (reencode video file) is performed by `f_renc`.
+
+The definitions of these functions are listed in `sm`:
+
+https://github.com/udexon/Phoshell/blob/master/Phoshell/sm
+
+Programmers just need to keep the main loop of `sm` at the end. Additional functions and aliases can be defined independently to extend the functionalities of `sm`.
+
+<!--
 In practice, step (b) is done first, as we need to get the duration of the audio to create a silent mp4 of the same length in (a).
   - The code to accomplish this is at line 130 `function f_duration` in `sm`.
-  
+--> 
+
 - Sanwich API
