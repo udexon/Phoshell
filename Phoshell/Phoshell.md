@@ -67,6 +67,7 @@ for ((i=0; i < $#; i++))
 
 `1: 77`: `1:` the length of the stack. `77` is the result.
 
+<hr>
 
 2. The simplest task in making a presentation video consists of the following:
 
