@@ -92,10 +92,17 @@ for ((i=0; i < $#; i++))
 
 As you can see the complexities of the parameters involved would turn off the most seasoned programmers. With Phoshell, we have turned the above to something like the following:
 
-- i. Get audio duration and make mp4 from png:
-
+- a. Get audio duration and make mp4 from png:
 ```
 > ./sm t.m4a f_duration dup: GEISHA/img/GEISHA.png o_1.mp4 f_p2m
+```
+- c. Merge the audio and video stream into one mp4 file.
+```
+> ./sm t.m4a o_1.mp4 o_1x.mp4 f_mav
+```
+- d. Reencode the mp4 to the resolution required to eliminate inconsistencies create in the previous steps.
+```
+> ./sm o_1x.mp4 o_1r.mp4 f_renc
 ```
 
 `t.m4a`: input audio file
