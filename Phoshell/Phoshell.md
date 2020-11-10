@@ -138,7 +138,7 @@ function f_duration
 }
 ```
 
-Further, `f_duration` can be aliased as `dur:`:
+Further, `f_duration` can be aliased as `dur:`
 ```
 alias dur:=f_duration
 ```
