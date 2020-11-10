@@ -90,7 +90,7 @@ for ((i=0; i < $#; i++))
   ffmpeg -i $i1 -c:a aac -vcodec libx264 -s 1920x1080 -r 60 -strict experimental $o
   ```
 
-As you can see the complexities of the parameters involved would turn off the most seasoned programmers. With Phoshell, we have turned the above to something like the following:
+As you can see the complexities of the `ffmpeg` parameters involved would turn off the most seasoned programmers. With Phoshell, we have turned the above to something like the following:
 
 - a. Get audio duration and make mp4 from png:
 ```
